@@ -18,10 +18,15 @@ h1 {
     top: 0;
     line-height: 80px;
     background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    text-indent: -9999px; /* Hide text but keep it accessible for screen readers */
+
 }
 
 
-header.top-bar ul {
+.top-bar ul {
     position: absolute;
     right: 5vw;
     top:0;
@@ -29,7 +34,7 @@ header.top-bar ul {
 }
 
 
-header .top-bar li {
+.top-bar li {
     display: inline;
     margin-right: 4vw;
 
@@ -42,6 +47,32 @@ header .top-bar li {
 
 
 
+.Cakescategory {
+    display: inline;
+    background-color: #F6DFC3;
+    justify-items: center;
+    padding: 100px 180px 80px;
+}
+
+.Cakescategory div {
+    width: 300px;
+    text-align: center;
+}
+
+.Cakescategory img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Cakescategory h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.Cakescategory p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
 
 
 
