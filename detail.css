@@ -1,0 +1,25 @@
+body    {
+    background-color: bisque;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(193, 171, 145);
+    height: 39rem;
+}
+
+.food-image {
+    width: 30rem;
+    height: 31rem;
+    border-radius: 1rem;
+    margin: 3.5rem;
+    margin-top: 5rem;
+}
+
+h2 {
+    margin-top: 15rem;
+    font-size: 3rem;
+    
+}
