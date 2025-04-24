@@ -1,11 +1,3 @@
-*{
-    padding:0;
-    margin:0;
-}
-
-
-
-/*header*/
 .top-bar {
     background-color: #3B271A;
     height: 80px;
@@ -24,7 +16,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     width: 200px;
-    text-indent: -9999px; /* Hide text but keep it accessible for screen readers */
+    text-indent: -9999px; 
 
 }
 
@@ -105,16 +97,6 @@ h1 {
     color: white;
 }
 
-
-.search-bar {
-    width: 250px;
-    padding: 0.5rem;
-    border-radius: 18px;
-    border: none;
-    font-size: 1rem;
-}
-
-
 nav ul {
     display: flex;
     gap: 20px;
@@ -133,10 +115,12 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* 用户图标样式 */
+
 .user-icon {
     font-size: 1.2rem;
 }
+
+/*search bar*/
 
 
 
@@ -172,7 +156,6 @@ nav ul li a:hover {
     font-size: 14px;
     line-height: 1.6em;
 }
-
 
 
 
