@@ -76,6 +76,7 @@ h1 {
 
 
 
+
 /* 顶部导航栏样式 */
 .top-bar {
     display: flex;
@@ -145,6 +146,40 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+/*main*/
+.Cakescategory {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: #F6DFC3;
+}
+
+.Cakescategory div {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Cakescategory img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Cakescategory h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.Cakescategory p {
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
 
 
 
