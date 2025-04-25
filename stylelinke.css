@@ -101,7 +101,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center;
     width: 200px;
-    text-indent: -9999px; /* Hide text but keep it accessible for screen readers */
+    text-indent: -9999px; 
 
 }
 
@@ -156,7 +156,6 @@ h1 {
 
 
 
-/* 顶部导航栏样式 */
 .top-bar {
     display: flex;
     align-items: center;
@@ -165,7 +164,7 @@ h1 {
     padding: 10px 20px;
 }
 
-/* LOGO 和品牌名称 */
+
 .logo-container {
     display: flex;
     align-items: center;
@@ -173,7 +172,7 @@ h1 {
 }
 
 .logo {
-    width: 50px; /* 调整 LOGO 大小 */
+    width: 50px; 
     height: auto;
 }
 
@@ -183,37 +182,12 @@ h1 {
     color: white;
 }
 
-/* 搜索栏样式 */
-.search-bar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.search-bar input {
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.search-bar button {
-    padding: 5px 10px;
-    background-color: #ff6f61;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.search-bar button:hover {
-    background-color: #e05550;
-}
-
-/* 导航栏样式 */
 nav ul {
     display: flex;
     gap: 20px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li a {
@@ -224,6 +198,130 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+
+.user-icon {
+    font-size: 1.2rem;
+}
+
+/*search bar*/
+.categories-bar {
+    background-color: #3B271A;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.categories-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.categories-links li {
+    display: inline;
+}
+
+.categories-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.categories-links li a:hover {
+    background-color: #575757;
+}
+
+.categories-filters {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.filter {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #575757;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.filter:hover {
+    background-color: #6A6A6A;
+}
+
+.categories-filters {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.filter {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #575757;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+}
+
+.filter:hover {
+    background-color: #6A6A6A;
+}
+
+.filter-icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+/*main*/
+.Cakescategory {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    background-color: #F6DFC3;
+}
+
+.Cakescategory div {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Cakescategory img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Cakescategory h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.Cakescategory p {
+    font-size: 14px;
+    line-height: 1.6em;
 }
 
 
