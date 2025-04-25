@@ -18,8 +18,27 @@ body    {
     margin-top: 5rem;
 }
 
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
 h2 {
     margin-top: 15rem;
     font-size: 3rem;
     
+}
+
+p {
+    font-size: 1.5rem;
+    margin-right: 3rem;
+}
+
+.ingredients-text {
+    text-align: center;
+    margin-left: 3rem;
+}
+
+.comment-section {
+    background-color: rgb(192, 192, 192);
 }
