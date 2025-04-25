@@ -8,8 +8,8 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   width: 100%;
   background-color: #3B271A;
 }
@@ -30,6 +30,33 @@ body {
   object-position: top; 
 }
 
+
+
+.header-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translate(-50%, -50%); 
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.header-text h1 {
+  font-family: 'Jua', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.header-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
 .search-bar {
   width: 250px;
   padding: 0.5rem;
@@ -37,7 +64,6 @@ body {
   border: none;
   font-size: 1rem;
 }
-
 
 .logo {
   font-weight: bold;
