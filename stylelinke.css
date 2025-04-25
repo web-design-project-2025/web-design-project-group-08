@@ -122,6 +122,104 @@ nav ul li a:hover {
 
 /*search bar*/
 
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #3B271A;
+    }
+    
+    .header-image {
+    position: relative;
+    width: 100%;
+    height: 75vh; /* controls the height */
+    overflow: hidden;
+    }
+    
+    .header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    }
+    
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        background-color: #3B271A;
+        position: relative; /* Added to allow positioning of child elements */
+    }
+    
+    .search-bar {
+        width: 250px;
+        padding: 0.5rem;
+        border-radius: 18px;
+        border: none;
+        font-size: 1rem;
+        position: absolute; /* Added for positioning */
+        left: -250px; /* Moves the search bar 300px to the left */
+    }
+
+
+/*the second nav*/
+.sidebar-container {
+    position: relative;
+}
+
+.sidebar-toggle {
+    background-color: #3B271A;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #3B271A;
+    overflow-x: hidden;
+    transition: 0.3s;
+    padding-top: 60px;
+    z-index: 999;
+}
+
+.sidebar a {
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar.open {
+    width: 250px;
+}
+
 
 
 /*main*/

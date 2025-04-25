@@ -6,3 +6,8 @@ document.querySelector('.toggle-submenu').addEventListener('click', function () 
         secondNav.style.display = 'none';
     }
 });
+
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('open');
+}
