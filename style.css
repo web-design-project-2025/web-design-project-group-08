@@ -84,6 +84,17 @@ a{
   background-color: #F6DFC3;
 }
 
+.like-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  z-index: 2;
+  color: white;
+}
+
 .gallery-section {
   display: flex;
   gap: 2rem;
@@ -136,7 +147,6 @@ a{
 .item:hover::after {
   opacity: 1;
 }
-
 
 img {
   transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
