@@ -27,11 +27,9 @@ document.querySelectorAll('.delete-step-button').forEach(button => {
 });
 
 
-// 添加新配料功能
 document.querySelector('.add-ingredient-button').addEventListener('click', () => {
     const ingredientList = document.querySelector('.ingredient-list');
 
-    // 创建新的配料项
     const newIngredient = document.createElement('div');
     newIngredient.classList.add('ingredient-item');
     newIngredient.innerHTML = `
@@ -40,18 +38,38 @@ document.querySelector('.add-ingredient-button').addEventListener('click', () =>
         <button class="delete-ingredient-button">Delete</button>
     `;
 
-    // 将新配料项添加到列表中
     ingredientList.appendChild(newIngredient);
 
-    // 为新添加的删除按钮绑定事件
     newIngredient.querySelector('.delete-ingredient-button').addEventListener('click', () => {
         newIngredient.remove();
     });
 });
-
-// 删除配料功能
 document.querySelectorAll('.delete-ingredient-button').forEach(button => {
     button.addEventListener('click', (event) => {
         event.target.closest('.ingredient-item').remove();
+    });
+});
+
+
+
+// Options Section
+
+const dietaryButtons = document.querySelectorAll('.dietary-button');
+
+dietaryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const img = button.querySelector('img');
+
+        if (button.classList.contains('sugarfree')) {
+            img.src = img.src.includes('sugarfree.png')
+                ? 'images/sugarfreecolor.png'
+                : 'images/sugarfree.png';
+        } else if (button.classList.contains('vegetarian')) {
+            img.src = img.src.includes('vegetarian.png')
+                ? 'images/vegetariancolor.png'
+                : 'images/vegetarian.png';
+        }
+
+        button.classList.toggle('active');
     });
 });
