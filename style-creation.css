@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 
 /*header*/
 .nav-container {
@@ -339,5 +343,154 @@ display: inline-block;
 }
 
 .submit-button:hover {
+    background-color: #E65A50;
+}
+
+
+.add-photo-box {
+    width: 50px;
+    height: 50px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: border-color 0.3s, background-color 0.3s;
+    margin-left: 10px; /* 与步骤输入框保持间距 */
+}
+
+.add-photo-box:hover {
+    border-color: #3B271A;
+    background-color: #F6DFC3;
+}
+
+.add-photo-box img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+/* Add Step and Add Ingredient Buttons */
+.add-step-button, .add-ingredient-button {
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.add-step-button:hover, .add-ingredient-button:hover {
+    background-color: #E65A50;
+}
+.delete-step-button {
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.delete-step-button:hover {
+    background-color: #E65A50;
+}
+/* Instruction Steps */
+.instruction-steps {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.instruction-steps textarea {
+    flex: 1;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.add-photo-box {
+    width: 50px;
+    height: 50px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.add-photo-box:hover {
+    border-color: #3B271A;
+    background-color: #F6DFC3;
+}
+
+.add-photo-box img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+/* Ingredients Section */
+.ingredient-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingredient-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 控制输入框和按钮之间的间距 */
+}
+
+.ingredient-name,
+.ingredient-quantity {
+    flex: 1; /* 让输入框均分宽度 */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.delete-ingredient-button {
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-ingredient-button:hover {
+    background-color: #E65A50;
+}
+
+.add-ingredient-button {
+    margin-top: 10px;
+    background-color: #FF6F61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-ingredient-button:hover {
     background-color: #E65A50;
 }
