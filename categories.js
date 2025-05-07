@@ -65,3 +65,45 @@ async function fetchCategories() {
   
   // Call the function to fetch and display categories
   fetchCategories();
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const buttons = document.querySelectorAll("button[data-category]");
+    buttons.forEach(button => {
+        button.addEventListener("click", () => {
+            const category = button.getAttribute("data-category");
+            fetchCategoryData(category);
+        });
+    });
+});
+
+function fetchCategoryData(category) {
+    fetch(`data/${category}.json`) // Assuming JSON files are stored in a 'data' folder
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`Failed to fetch data for category: ${category}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            displayCategoryData(data);
+        })
+        .catch(error => {
+            console.error(error);
+        });
+}
+
+function displayCategoryData(data) {
+    const container = document.querySelector(".categories-container");
+    container.innerHTML = ""; // Clear previous content
+    data.forEach(item => {
+        const div = document.createElement("div");
+        div.className = "category-item";
+        div.innerHTML = `
+            <h3>${item.name}</h3>
+            <p>${item.description}</p>
+            <img src="${item.image}" alt="${item.name}">
+        `;
+        container.appendChild(div);
+    });
+}

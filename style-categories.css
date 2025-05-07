@@ -302,6 +302,76 @@ transform: scale(1.1);
 box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+
+
+
+/* 样式化整个类别容器 */
+.category {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* 类别标题样式 */
+.category-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* 项目列表样式 */
+.category-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* 单个项目样式 */
+.category-item {
+    width: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 项目图片样式 */
+.category-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* 项目名称样式 */
+.category-item-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* 项目描述样式 */
+.category-item-description {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+
+
+
+
+
 /*footer*/
 
 footer.thefooter {
