@@ -1,0 +1,108 @@
+{
+    "categories": [
+      {
+        "name": "Cakes",
+        "items": [
+          {
+            "name": "cake1",
+            "description": "For summer",
+            "image": "images/cake1.jpg"
+          },
+          {
+            "name": "cake2",
+            "description": "For summer",
+            "image": "images/cake2.jpg"
+          },
+          {
+            "name": "cake3",
+            "description": "For summer",
+            "image": "images/cake3.jpg"
+          },
+          {
+            "name": "cake4",
+            "description": "For summer",
+            "image": "images/cake4.jpg"
+          },
+          {
+            "name": "cake5",
+            "description": "For summer",
+            "image": "images/cake5.jpg"
+          },
+          {
+            "name": "cake6",
+            "description": "For summer",
+            "image": "images/cake6.jpg"
+          },
+          {
+            "name": "cake7",
+            "description": "For summer",
+            "image": "images/cake7.jpg"
+          },
+          {
+            "name": "cake8",
+            "description": "For summer",
+            "image": "images/cake8.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Cookies",
+        "items": [
+          {
+            "name": "cookies1",
+            "description": "Chocolate chip cookie",
+            "image": "images/co"
+          },
+          {
+            "name": "cookies2",
+            "description": "Oatmeal raisin cookie",
+            "image": "images/cookie2.jpg"
+          }
+          
+        ]
+      },
+      {
+        "name": "Pies",
+        "items": [
+          {
+            "name": "pie1",
+            "description": "Apple pie",
+            "image": "images/pie1.jpg"
+          },
+          {
+            "name": "pie2",
+            "description": "Pumpkin pie",
+            "image": "images/pie2.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Cups",
+        "items": []
+      },
+      {
+        "name": "Mousses",
+        "items": []
+      },
+      {
+        "name": "Rice",
+        "items": []
+      },
+      {
+        "name": "Candies",
+        "items": []
+      },
+      {
+        "name": "Frozen",
+        "items": []
+      },
+      {
+        "name": "Traditional",
+        "items": []
+      },
+      {
+        "name": "Chocolates",
+        "items": []
+      }
+    ]
+  }
