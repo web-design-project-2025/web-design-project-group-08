@@ -266,111 +266,109 @@ display: inline-block;
 
 
 
-/*main*/
+/* Main section styles */
 main {
-background-color: #F6DFC3;
-padding: 20px;
+    background-color: #F6DFC3;
+    padding: 20px;
 }
 
-.Cakescategory {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-justify-content: center;
-padding: 20px;
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+    gap: 20px; /* Space between items */
+    justify-items: center; /* Center items horizontally */
+    align-items: start; /* Align items to the top */
 }
 
-.cake-item {
-flex: 0 1 calc(25% - 20px);
-box-sizing: border-box;
-text-align: center;
-transition: transform 0.3s ease, box-shadow 0.3s ease;
-border: 1px solid #ddd;
-padding: 10px;
-border-radius: 8px;
-background-color: #ffffff;
-}
-
-.cake-item img {
-width: 100%;
-height: auto;
-border-radius: 8px;
-}
-
-.cake-item:hover {
-transform: scale(1.1);
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-
-
-
-/* 样式化整个类别容器 */
-.category {
-    margin: 20px;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-}
-
-/* 类别标题样式 */
-.category-title {
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-/* 项目列表样式 */
-.category-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-/* 单个项目样式 */
-.category-item {
-    width: 200px;
+.category-section {
     text-align: center;
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 10px;
-    background-color: #fff;
+    background-color: #ffffff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.category-item:hover {
+.category-section:hover {
     transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* 项目图片样式 */
-.category-item img {
+.category-section img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-/* 项目名称样式 */
-.category-item-name {
+.category-section h2 {
     font-size: 18px;
     font-weight: bold;
-    color: #555;
-    margin-top: 10px;
+    color: #333;
+    margin: 10px 0;
 }
 
-/* 项目描述样式 */
-.category-item-description {
+.category-section p {
     font-size: 14px;
     color: #777;
     margin-top: 5px;
 }
 
 
+/* Main section styles */
+.categories-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center; 
+    align-items: start;
+}
 
+.item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #ffffff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; 
+}
 
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .categories-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .categories-container {
+        grid-template-columns: 1fr; 
+    }
+}
 
 /*footer*/
 
