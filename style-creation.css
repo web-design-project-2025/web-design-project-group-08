@@ -1,0 +1,205 @@
+/*header*/
+.top-bar {
+    background-color: #3B271A;
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    left: 120px1;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    text-indent: -9999px; 
+
+}
+
+
+.top-bar ul {
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height: 80px;
+}
+
+
+.top-bar li {
+    display: inline;
+    margin-right: 4vw;
+
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.Cakescategory {
+    display: inline;
+    background-color: #F6DFC3;
+    justify-items: center;
+    padding: 100px 180px 80px;
+}
+
+.Cakescategory div {
+    width: 300px;
+    text-align: center;
+}
+
+.Cakescategory img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Cakescategory h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.Cakescategory p{
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3B271A;
+    padding: 10px 20px;
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px; 
+    height: auto;
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.user-icon {
+    font-size: 1.2rem;
+}
+
+
+
+/*main*/
+.creation-main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: #F6DFC3;
+}
+
+.add-images, .instruction, .ingredients {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-images h2, .instruction h2, .ingredients h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.image-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+}
+
+.image-placeholder img {
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+}
+
+.instruction-steps textarea {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+}
+
+.ingredient-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.ingredient-item input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-section {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #E65A50;
+}
