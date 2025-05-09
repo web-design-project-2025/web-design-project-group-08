@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fetchAllCategories();
 });
 
+
 async function fetchAllCategories() {
     try {
         const response = await fetch("categories.json");
@@ -72,3 +73,9 @@ function displaySingleCategory(category) {
         container.appendChild(itemDiv);
     });
 }
+
+function toggleSidebar() {
+    const sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('open');
+}
+
