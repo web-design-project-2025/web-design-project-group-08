@@ -1,5 +1,4 @@
 const stars = document.querySelectorAll(".stars i")
-const hearts = document.querySelectorAll(".heart-icon")
 
 stars.forEach((star, index1) => {
     star.addEventListener("click", () => {
@@ -8,3 +7,7 @@ stars.forEach((star, index1) => {
         });
     });
 });
+
+function myFunction(x) {
+    x.classList.toggle("fa-heart-Active")
+}
