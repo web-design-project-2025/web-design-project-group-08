@@ -135,6 +135,6 @@ footer {
   display: flex;
   justify-content: space-around;
   padding: 1rem;
-  
+  background-color: rgb(48, 48, 48);
   font-weight: bold;
 }

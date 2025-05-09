@@ -32,23 +32,25 @@ body    {
     margin-top: 5rem;
 }
 
-#heart-icon {
+.heart-icon {
     width: 5rem;
     height: 5rem;
     margin-top: 1rem;
     margin-bottom: 4rem;
     margin-left: 46rem;
+    cursor: pointer;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 h2 {
     margin-top: 1rem;
     font-size: 3rem;
-    
 }
 
 p {
@@ -74,8 +76,10 @@ li {
 }
 
 .comment-section {
+    margin-top: 4rem;
     padding-top: 1px;
-    background-color: rgb(192, 192, 192);
+    padding-bottom: 1rem;
+    background-color: rgb(223, 223, 223);
 }
 
 .comment-section h2 {
@@ -95,6 +99,27 @@ li {
 
 }
 
+.commenters {
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 90rem;
+    height: auto;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.commenters i {
+    color: rgb(255, 139, 139);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.commenters i.no-star {
+    color: rgb(181, 181, 181);
+}
+
 .comment-section .stars {
     display: flex;
     align-items: center;
@@ -104,11 +129,11 @@ li {
 .ratings-button {
     display: flex;
     margin-top: 0.5rem;
+    margin-bottom: 7rem;
 }
 
 .stars {
     margin-left: 7.5rem;
-
 }
 
 .stars i {
@@ -119,7 +144,8 @@ li {
 }
 
 .stars i.Active {
-    color:rgb(255, 197, 50)
+    color:rgb(255, 139, 139);
+    
 }
 
 #submit-button {
