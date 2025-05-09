@@ -1,9 +1,7 @@
 *{
     padding:0; margin:0;
 }
-
 /*header*/
-
 .nav-container {
     display: flex;
     align-items: center;
@@ -17,7 +15,6 @@
   .nav-container li {
     list-style: none; 
 }
-
 .header-image {
     position: relative;
     width: 100%;
@@ -54,7 +51,7 @@
   
   a{
     color: white;
-    text-decoration: none;
+    text-decoration: none;
   }
   .nav-container a {
     text-decoration: none; 
@@ -62,7 +59,6 @@
 .nav-container a:hover {
     text-decoration: underline;
 }
-
 /* Sub-navigation styles */
 .sub-nav {
     display: none; 
@@ -75,11 +71,9 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
-
 .sub-nav li {
     padding: 5px 20px;
 }
-
 .sub-nav li a {
     color: white;
     text-decoration: none;
@@ -87,21 +81,17 @@
     display: block;
     transition: background-color 0.3s;
 }
-
 .sub-nav li a:hover {
     background-color: #575757;
 }
-
 
 li:hover > .sub-nav {
     display: block;
 }
 
-
 li {
     position: relative;
 }
-
 
 
 /*search bar*/
@@ -115,7 +105,6 @@ align-items: center;
 color: white;
 margin-bottom: 20px;
 }
-
 .categories-links {
 list-style: none;
 padding: 0;
@@ -124,11 +113,9 @@ display: flex;
 flex-wrap: wrap;
 gap: 15px;
 }
-
 .categories-links li {
 display: inline;
 }
-
 .categories-links li a {
 color: white;
 text-decoration: none;
@@ -137,17 +124,14 @@ padding: 5px 10px;
 border-radius: 5px;
 transition: background-color 0.3s;
 }
-
 .categories-links li a:hover {
 background-color: #575757;
 }
-
 .categories-filters {
 display: flex;
 gap: 15px;
 align-items: center;
 }
-
 .filter {
 font-size: 14px;
 padding: 5px 10px;
@@ -156,17 +140,14 @@ border-radius: 5px;
 cursor: pointer;
 transition: background-color 0.3s;
 }
-
 .filter:hover {
 background-color: #6A6A6A;
 }
-
 .categories-filters {
 display: flex;
 gap: 15px;
 align-items: center;
 }
-
 .filter {
 font-size: 14px;
 padding: 5px 10px;
@@ -179,11 +160,9 @@ align-items: center;
 gap: 8px;
 color: white;
 }
-
 .filter:hover {
 background-color: #6A6A6A;
 }
-
 .filter-icon {
 width: 20px;
 height: 20px;
@@ -194,7 +173,6 @@ display: inline-block;
     align-items: center;
     gap: 10px;
 }
-
 .search-bar {
     width: 250px;
     padding: 0.5rem;
@@ -204,11 +182,9 @@ display: inline-block;
     outline: none;
     transition: border-color 0.3s;
 }
-
 .search-bar:focus {
     border-color: #3B271A;
 }
-
 .search-button {
     background-color: #3B271A;
     border: none;
@@ -220,16 +196,13 @@ display: inline-block;
     justify-content: center;
     transition: background-color 0.3s;
 }
-
 .search-button:hover {
     background-color: #575757;
 }
-
 .search-icon {
     width: 20px;
     height: 20px;
 }
-
 
 .categories-filters {
     background-color: #D2B48C; 
@@ -238,7 +211,6 @@ display: inline-block;
     gap: 15px;
     align-items: center;
 }
-
 .filter {
     font-size: 14px;
     padding: 5px 10px;
@@ -251,11 +223,9 @@ display: inline-block;
     gap: 8px;
     color: #3B271A; 
 }
-
 .filter:hover {
     background-color: #EED5B7; 
 }
-
 .filter-icon {
     width: 20px;
     height: 20px;
@@ -265,13 +235,11 @@ display: inline-block;
 
 
 
-
 /* Main section styles */
 main {
     background-color: #F6DFC3;
     padding: 20px;
 }
-
 .categories-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 items per row */
@@ -279,7 +247,6 @@ main {
     justify-items: center; /* Center items horizontally */
     align-items: start; /* Align items to the top */
 }
-
 .category-section {
     text-align: center;
     border: 1px solid #ddd;
@@ -288,31 +255,26 @@ main {
     background-color: #ffffff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 .category-section:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 .category-section img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
-
 .category-section h2 {
     font-size: 18px;
     font-weight: bold;
     color: #333;
     margin: 10px 0;
 }
-
 .category-section p {
     font-size: 14px;
     color: #777;
     margin-top: 5px;
 }
-
 
 /* Main section styles */
 .categories-container {
@@ -322,7 +284,6 @@ main {
     justify-items: center; 
     align-items: start;
 }
-
 .item {
     text-align: center;
     border: 1px solid #ddd;
@@ -332,52 +293,43 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%; 
 }
-
 .item:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 .item img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
-
 .item h3 {
     font-size: 18px;
     font-weight: bold;
     color: #333;
     margin: 10px 0;
 }
-
 .item p {
     font-size: 14px;
     color: #777;
     margin-top: 5px;
 }
-
 /* Responsive design */
 @media (max-width: 768px) {
     .categories-container {
         grid-template-columns: repeat(2, 1fr); 
     }
 }
-
 @media (max-width: 480px) {
     .categories-container {
         grid-template-columns: 1fr; 
     }
 }
-
 /*footer*/
-
 footer.thefooter {
     background-color: #3D3D3D;
     color: white;
     padding: 20px 100px;
 }
-
 footer.thefooter .top {
     display: flex;
     justify-content: space-between;
@@ -385,53 +337,43 @@ footer.thefooter .top {
     padding: 20px;
     gap: 20px;
 }
-
 footer.thefooter .top > div {
     flex: 1;
     text-align: left; 
 }
-
 footer.thefooter .top h2 {
     color: white;
     margin-bottom: 10px;
 }
-
 footer.thefooter .top p,
 footer.thefooter .top ul li a {
     color: white;
     text-decoration: none;
 }
-
 footer.thefooter .top ul {
     list-style: none;
     padding: 0;
 }
-
 footer.thefooter .top ul li {
     margin-bottom: 5px;
 }
-
 footer.thefooter .top ul li a:hover {
     text-decoration: underline;
 }
-
 footer.thefooter .download img {
     max-width: 100px;
     height: auto;
     margin-top: 10px;
 }
-
 footer.thefooter .bottom {
     background-color: #2C2C2C;
     padding: 10px 0;
     text-align: left;
 }
-
 footer.thefooter .bottom p {
     margin: 0;
     color: white;
 }
-
 footer.thefooter .bottom ul {
     list-style: none;
     padding: 0;
@@ -440,16 +382,13 @@ footer.thefooter .bottom ul {
     justify-content: flex-start; 
     gap: 15px;
 }
-
 footer.thefooter .bottom ul li a {
     color: white;
     text-decoration: none;
 }
-
 footer.thefooter .bottom ul li a:hover {
     text-decoration: underline;
 }
-
 
 footer.thefooter .bottom {
     background-color: #2C2C2C;
@@ -460,12 +399,10 @@ footer.thefooter .bottom {
     font-size: 12px; 
     color: white;
 }
-
 footer.thefooter .bottom p {
     margin: 0;
     color: white;
 }
-
 footer.thefooter .bottom ul {
     list-style: none;
     padding: 0;
@@ -473,13 +410,11 @@ footer.thefooter .bottom ul {
     display: flex;
     gap: 15px;
 }
-
 footer.thefooter .bottom ul li a {
     color: white;
     text-decoration: none;
     font-size: 12px; 
 }
-
 footer.thefooter .bottom ul li a:hover {
     text-decoration: underline;
 }

@@ -7,10 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
             fetchSingleCategory(category);
         });
     });
-
     fetchAllCategories();
 });
-
 
 async function fetchAllCategories() {
     try {
@@ -21,16 +19,13 @@ async function fetchAllCategories() {
         console.error("Error loading all categories:", error);
     }
 }
-
 function displayAllCategories(categories) {
     const container = document.querySelector(".categories-container");
     container.innerHTML = ""; 
-
     categories.forEach(category => {
         category.items.forEach(item => {
             const itemDiv = document.createElement("div");
             itemDiv.className = "item";
-
             itemDiv.innerHTML = `
                 <img src="${item.image}" alt="${item.name}">
                 <h3>${item.name}</h3>
@@ -40,12 +35,10 @@ function displayAllCategories(categories) {
         });
     });
 }
-
 async function fetchSingleCategory(categoryName) {
     try {
         const response = await fetch("categories.json");
         const data = await response.json();
-
         const category = data.categories.find(cat => cat.name === categoryName);
         if (category) {
             displaySingleCategory(category);
@@ -56,15 +49,12 @@ async function fetchSingleCategory(categoryName) {
         console.error("Error loading category:", categoryName, error);
     }
 }
-
 function displaySingleCategory(category) {
     const container = document.querySelector(".categories-container");
     container.innerHTML = ""; 
-
     category.items.forEach(item => {
         const itemDiv = document.createElement("div");
         itemDiv.className = "item";
-
         itemDiv.innerHTML = `
             <img src="${item.image}" alt="${item.name}">
             <h3>${item.name}</h3>
@@ -73,7 +63,6 @@ function displaySingleCategory(category) {
         container.appendChild(itemDiv);
     });
 }
-
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     sidebar.classList.toggle('open');
