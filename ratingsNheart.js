@@ -8,11 +8,3 @@ stars.forEach((star, index1) => {
         });
     });
 });
-
-hearts.forEach((icon) => {
-    icon.addEventListener("click", () => {
-        hearts.forEach((icon) => {
-        icon.classList.add("Active") ; icon.classList.remove("Active")
-        });
-    });
-});
