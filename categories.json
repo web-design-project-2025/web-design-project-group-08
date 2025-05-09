@@ -1,0 +1,355 @@
+{
+    "categories": [
+        {
+            "name": "Cakes",
+            "items": [
+                {
+                    "name": "cake1",
+                    "description": "For summer",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "cake2",
+                    "description": "For summer",
+                    "image": "images/cake2.jpg"
+                    
+                },
+                {
+                    "name": "cake3",
+                    "description": "For summer",
+                    "image": "images/cake3.jpg"
+                },
+                {
+                    "name": "cake4",
+                    "description": "For summer",
+                    "image": "images/cake4.jpg"
+                },
+                {
+                    "name": "cake5",
+                    "description": "For summer",
+                    "image": "images/cake5.jpg"
+                },
+                {
+                    "name": "cake6",
+                    "description": "For summer",
+                    "image": "images/cake6.jpg"
+                },
+                {
+                    "name": "cake7",
+                    "description": "For summer",
+                    "image": "images/cake7.jpg"
+                },
+                {
+                    "name": "cake8",
+                    "description": "For summer",
+                    "image": "images/cake8.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Cookies",
+            "items": [
+                {
+                    "name": "cookies1",
+                    "description": "Chocolate chip cookie",
+                    "image": "images/cookies1.jpg"
+                },
+                {
+                    "name": "cookies2",
+                    "description": "Oatmeal raisin cookie",
+                    "image": "images/cookies2.jpg"
+                },
+                {
+                    "name": "cookies3",
+                    "description": "Peanut butter cookie",
+                    "image": "images/cookies3.jpg"
+                },
+                {
+                    "name": "cookies4",
+                    "description": "Sugar cookie",
+                    "image": "images/cookies4.jpg"
+                },
+                {
+                    "name": "cookies5",
+                    "description": "Snickerdoodle cookie",
+                    "image": "images/cookies5.jpg"
+                },
+                {
+                    "name": "cookies6",
+                    "description": "Gingerbread cookie",
+                    "image": "images/cookies6.jpg"
+                },
+                {
+                    "name": "cookies7",
+                    "description": "Shortbread cookie",
+                    "image": "images/cookies7.jpg"
+                },
+                {
+                    "name": "cookies8",
+                    "description": "Macaron",
+                    "image": "images/cookies8.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Pies",
+            "items": [
+                {
+                    "name": "pie1",
+                    "description": "Apple pie",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "pie2",
+                    "description": "Pumpkin pie",
+                    "image": "images/cookies5.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Cups",
+            "items": [
+                {
+                    "name": "cup1",
+                    "description": "Vanilla pudding in cup",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "cup2",
+                    "description": "Chocolate mousse cup",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "cup3",
+                    "description": "Fruit parfait cup",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "cup4",
+                    "description": "Matcha cream cup",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "cup5",
+                    "description": "Tiramisu in cup",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "cup6",
+                    "description": "Caramel flan cup",
+                    "image": "images/cake1.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Mousses",
+            "items": [
+                {
+                    "name": "mousse1",
+                    "description": "Strawberry mousse",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "mousse2",
+                    "description": "Chocolate mousse",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "mousse3",
+                    "description": "Mango mousse",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "mousse4",
+                    "description": "Lemon mousse",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "mousse5",
+                    "description": "Matcha mousse",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "mousse6",
+                    "description": "Blueberry mousse",
+                    "image": "images/cake1.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Rice",
+            "items": [
+                {
+                    "name": "rice1",
+                    "description": "Rice pudding",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "rice2",
+                    "description": "Coconut sticky rice",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "rice3",
+                    "description": "Mango sticky rice",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "rice4",
+                    "description": "Saffron rice dessert",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "rice5",
+                    "description": "Brown rice pudding",
+                    "image": "images/cake1.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Candies",
+            "items": [
+                {
+                    "name": "candy1",
+                    "description": "Fruit hard candy",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "candy2",
+                    "description": "Caramel candy",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "candy3",
+                    "description": "Mint candy",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "candy4",
+                    "description": "Lollipop",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "candy5",
+                    "description": "Gummy bears",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "candy6",
+                    "description": "Toffee candy",
+                    "image": "images/cake1.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Frozen",
+            "items": [
+                {
+                    "name": "ice1",
+                    "description": "For summer",
+                    "image": "images/ice1.jpg"
+                },
+                {
+                    "name": "ice2",
+                    "description": "For summer",
+                    "image": "images/ice2.jpg"
+                },
+                {
+                    "name": "ice3",
+                    "description": "For summer",
+                    "image": "images/ice3.jpg"
+                },
+                {
+                    "name": "ice4",
+                    "description": "For summer",
+                    "image": "images/ice4.jpg"
+                },
+                {
+                    "name": "ice5",
+                    "description": "For summer",
+                    "image": "images/ice5.jpg"
+                },
+                {
+                    "name": "ice6",
+                    "description": "For summer",
+                    "image": "images/ice6.jpg"
+                },
+                {
+                    "name": "ice7",
+                    "description": "For summer",
+                    "image": "images/ice7.jpg"
+                },
+                {
+                    "name": "ice8",
+                    "description": "For summer",
+                    "image": "images/ice8.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Traditional",
+            "items": [
+                {
+                    "name": "traditional1",
+                    "description": "Red bean cake",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "traditional2",
+                    "description": "Mochi",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "traditional3",
+                    "description": "Lotus seed pastry",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "traditional4",
+                    "description": "Sticky rice dumpling",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "traditional5",
+                    "description": "Egg tart",
+                    "image": "images/cake1.jpg"
+                }
+            ]
+        },
+        {
+            "name": "Chocolates",
+            "items": [
+                {
+                    "name": "chocolate1",
+                    "description": "Dark chocolate bar",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "chocolate2",
+                    "description": "Milk chocolate truffle",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "chocolate3",
+                    "description": "White chocolate cube",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "chocolate4",
+                    "description": "Hazelnut chocolate",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "chocolate5",
+                    "description": "Chocolate with fruit filling",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "chocolate6",
+                    "description": "Mint chocolate",
+                    "image": "images/cake1.jpg"
+                }
+            ]
+        }
+    ]
+}
