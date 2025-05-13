@@ -1,96 +1,96 @@
 {
     "categories": [
+{
+    "name": "Cakes",
+    "items": [
         {
-            "name": "Cakes",
-            "items": [
-                {
-                    "name": "cake1",
-                    "description": "For summer",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "cake2",
-                    "description": "For summer",
-                    "image": "images/cake2.jpg"
-                    
-                },
-                {
-                    "name": "cake3",
-                    "description": "For summer",
-                    "image": "images/cake3.jpg"
-                },
-                {
-                    "name": "cake4",
-                    "description": "For summer",
-                    "image": "images/cake4.jpg"
-                },
-                {
-                    "name": "cake5",
-                    "description": "For summer",
-                    "image": "images/cake5.jpg"
-                },
-                {
-                    "name": "cake6",
-                    "description": "For summer",
-                    "image": "images/cake6.jpg"
-                },
-                {
-                    "name": "cake7",
-                    "description": "For summer",
-                    "image": "images/cake7.jpg"
-                },
-                {
-                    "name": "cake8",
-                    "description": "For summer",
-                    "image": "images/cake8.jpg"
-                }
-            ]
+            "name": "Chestnut Cake",
+            "description": "For summer",
+            "image": "images/cake1.jpg"
         },
         {
-            "name": "Cookies",
-            "items": [
-                {
-                    "name": "cookies1",
-                    "description": "Chocolate chip cookie",
-                    "image": "images/cookies1.jpg"
-                },
-                {
-                    "name": "cookies2",
-                    "description": "Oatmeal raisin cookie",
-                    "image": "images/cookies2.jpg"
-                },
-                {
-                    "name": "cookies3",
-                    "description": "Peanut butter cookie",
-                    "image": "images/cookies3.jpg"
-                },
-                {
-                    "name": "cookies4",
-                    "description": "Sugar cookie",
-                    "image": "images/cookies4.jpg"
-                },
-                {
-                    "name": "cookies5",
-                    "description": "Snickerdoodle cookie",
-                    "image": "images/cookies5.jpg"
-                },
-                {
-                    "name": "cookies6",
-                    "description": "Gingerbread cookie",
-                    "image": "images/cookies6.jpg"
-                },
-                {
-                    "name": "cookies7",
-                    "description": "Shortbread cookie",
-                    "image": "images/cookies7.jpg"
-                },
-                {
-                    "name": "cookies8",
-                    "description": "Macaron",
-                    "image": "images/cookies8.jpg"
-                }
-            ]
+            "name": "Strawberry Chocolate Cake",
+            "description": "For summer",
+            "image": "images/cake2.jpg"
         },
+        {
+            "name": "Creamy Lemon Cake",
+            "description": "For summer",
+            "image": "images/cake3.jpg"
+        },
+        {
+            "name": "Classic Chocolate Cake",
+            "description": "For summer",
+            "image": "images/cake4.jpg"
+        },
+        {
+            "name": "Soy Milk Cake",
+            "description": "For summer",
+            "image": "images/cake5.jpg"
+        },
+        {
+            "name": "Caramel Biscuit Cake",
+            "description": "For summer",
+            "image": "images/cake6.jpg"
+        },
+        {
+            "name": "Matcha Fig Cake",
+            "description": "For summer",
+            "image": "images/cake7.jpg"
+        },
+        {
+            "name": "Sakura Blossom Cake",
+            "description": "For summer",
+            "image": "images/cake8.jpg"
+        }
+    ]
+},
+{
+    "name": "Cookies",
+    "items": [
+        {
+            "name": "Butter Cookie",
+            "description": "Classic buttery shortbread with a golden crunch",
+            "image": "images/cookies1.jpg"
+        },
+        {
+            "name": "Breakfast Biscuit",
+            "description": "Nutritious morning cookie perfect for a quick bite",
+            "image": "images/cookies2.jpg"
+        },
+        {
+            "name": "Smiley Toast Sandwich",
+            "description": "Playful smiley-faced cookie with a soft filling",
+            "image": "images/cookies3.jpg"
+        },
+        {
+            "name": "Chocolate Cookie",
+            "description": "Rich cocoa cookie with a chewy center",
+            "image": "images/cookies4.jpg"
+        },
+        {
+            "name": "Orange Cookie",
+            "description": "Crispy cookie infused with bright citrus flavor",
+            "image": "images/cookies5.jpg"
+        },
+        {
+            "name": "Cat Cookie",
+            "description": "Cute cat-shaped cookie with vanilla essence",
+            "image": "images/cookies6.jpg"
+        },
+        {
+            "name": "Strawberry Cream Sandwich",
+            "description": "Two soft cookies filled with strawberry cream",
+            "image": "images/cookies7.jpg"
+        },
+        {
+            "name": "Butter Cookie",
+            "description": "Delicate melt-in-your-mouth butter flavor",
+            "image": "images/cookies8.jpg"
+        }
+    ]
+},
+
         {
             "name": "Pies",
             "items": [
@@ -241,51 +241,51 @@
                 }
             ]
         },
+{
+    "name": "Frozen",
+    "items": [
         {
-            "name": "Frozen",
-            "items": [
-                {
-                    "name": "ice1",
-                    "description": "For summer",
-                    "image": "images/ice1.jpg"
-                },
-                {
-                    "name": "ice2",
-                    "description": "For summer",
-                    "image": "images/ice2.jpg"
-                },
-                {
-                    "name": "ice3",
-                    "description": "For summer",
-                    "image": "images/ice3.jpg"
-                },
-                {
-                    "name": "ice4",
-                    "description": "For summer",
-                    "image": "images/ice4.jpg"
-                },
-                {
-                    "name": "ice5",
-                    "description": "For summer",
-                    "image": "images/ice5.jpg"
-                },
-                {
-                    "name": "ice6",
-                    "description": "For summer",
-                    "image": "images/ice6.jpg"
-                },
-                {
-                    "name": "ice7",
-                    "description": "For summer",
-                    "image": "images/ice7.jpg"
-                },
-                {
-                    "name": "ice8",
-                    "description": "For summer",
-                    "image": "images/ice8.jpg"
-                }
-            ]
+            "name": "Vanilla Ice Cream",
+            "description": "Smooth and creamy classic vanilla flavor",
+            "image": "images/ice1.jpg"
         },
+        {
+            "name": "Cherry Ice Cream",
+            "description": "Rich cherry taste with sweet and tart notes",
+            "image": "images/ice2.jpg"
+        },
+        {
+            "name": "Spaghetti Ice Cream",
+            "description": "Whimsical pasta-shaped ice cream with berry sauce",
+            "image": "images/ice3.jpg"
+        },
+        {
+            "name": "Matcha Ice Cream",
+            "description": "Earthy and refreshing green tea flavor",
+            "image": "images/ice4.jpg"
+        },
+        {
+            "name": "Vanilla Walnut",
+            "description": "Creamy vanilla swirled with toasted walnuts",
+            "image": "images/ice5.jpg"
+        },
+        {
+            "name": "Coffee Walnut",
+            "description": "Bold coffee flavor with crunchy walnut pieces",
+            "image": "images/ice6.jpg"
+        },
+        {
+            "name": "Mango Ice Cream",
+            "description": "Tropical mango ice cream bursting with fruitiness",
+            "image": "images/ice7.jpg"
+        },
+        {
+            "name": "Caramel Chocolate",
+            "description": "Decadent combo of caramel swirl and chocolate chunks",
+            "image": "images/ice8.jpg"
+        }
+    ]
+},
         {
             "name": "Traditional",
             "items": [
