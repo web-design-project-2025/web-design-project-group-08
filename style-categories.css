@@ -15,6 +15,7 @@
   .nav-container li {
     list-style: none; 
 }
+
 .header-image {
     position: relative;
     width: 100%;
@@ -71,9 +72,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
 }
+
 .sub-nav li {
     padding: 5px 20px;
 }
+
 .sub-nav li a {
     color: white;
     text-decoration: none;
@@ -324,6 +327,21 @@ main {
         grid-template-columns: 1fr; 
     }
 }
+
+
+.item img,
+.category-section img {
+    width: 100%;
+    aspect-ratio: 3 / 4;  
+    height: auto;
+    max-height: none;
+    min-height: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+}
+
 /*footer*/
 footer.thefooter {
     background-color: #3D3D3D;
@@ -418,3 +436,6 @@ footer.thefooter .bottom ul li a {
 footer.thefooter .bottom ul li a:hover {
     text-decoration: underline;
 }
+
+
+
