@@ -74,5 +74,83 @@ dietaryButtons.forEach(button => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const searchInput = document.querySelector(".search-bar");
+    const searchButton = document.querySelector(".search-button");
+    const resultsContainer = document.getElementById("search-results");
 
+    let allItems = [];
+
+    // 异步加载 JSON 数据
+    async function fetchData() {
+        try {
+            const response = await fetch("data.json"); // 路径根据你放置的 JSON 文件而定
+            const data = await response.json();
+
+            // 把所有 items 展平成一个数组
+            data.categories.forEach(category => {
+                category.items.forEach(item => {
+                    allItems.push({
+                        name: item.name,
+                        description: item.description,
+                        image: item.image,
+                        category: category.name
+                    });
+                });
+            });
+        } catch (error) {
+            console.error("加载 JSON 失败:", error);
+        }
+    }
+
+    // 搜索功能
+    function searchDesserts(query) {
+        const filtered = allItems.filter(item =>
+            item.name.toLowerCase().includes(query.toLowerCase()) ||
+            item.description.toLowerCase().includes(query.toLowerCase()) ||
+            item.category.toLowerCase().includes(query.toLowerCase())
+        );
+
+        renderResults(filtered);
+    }
+
+    // 渲染结果
+    function renderResults(results) {
+        resultsContainer.innerHTML = "";
+
+        if (results.length === 0) {
+            resultsContainer.innerHTML = "<p>No results found.</p>";
+            return;
+        }
+
+        results.forEach(item => {
+            const div = document.createElement("div");
+            div.className = "search-item";
+            div.innerHTML = `
+                <img src="${item.image}" alt="${item.name}" class="result-img"/>
+                <div>
+                    <h3>${item.name}</h3>
+                    <p>${item.description}</p>
+                    <small>${item.category}</small>
+                </div>
+            `;
+            resultsContainer.appendChild(div);
+        });
+    }
+
+    // 点击按钮或输入框按回车搜索
+    searchButton.addEventListener("click", () => {
+        const query = searchInput.value.trim();
+        searchDesserts(query);
+    });
+
+    searchInput.addEventListener("keydown", e => {
+        if (e.key === "Enter") {
+            searchDesserts(searchInput.value.trim());
+        }
+    });
+
+    // 页面加载时抓取数据
+    fetchData();
+});
 
