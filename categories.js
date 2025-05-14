@@ -221,3 +221,58 @@ document.addEventListener("DOMContentLoaded", function () {
 searchInput.addEventListener("input", () => {
     searchDesserts(searchInput.value.trim());
 });
+
+// ...existing code...
+function displayAllCategories(categories) {
+    const container = document.querySelector(".categories-container");
+    container.innerHTML = ""; 
+    categories.forEach(category => {
+        category.items.forEach(item => {
+            const itemDiv = document.createElement("div");
+            itemDiv.className = "item";
+            itemDiv.innerHTML = `
+                <img src="${item.image}" alt="${item.name}">
+                <h3>${item.name}</h3>
+                <p>${item.description}</p>
+            `;
+            // 添加点击事件
+            itemDiv.addEventListener("click", () => {
+                localStorage.setItem("selectedDessert", JSON.stringify({
+                    name: item.name,
+                    description: item.description,
+                    image: item.image,
+                    category: category.name
+                }));
+                window.location.href = "detail.html";
+            });
+            container.appendChild(itemDiv);
+        });
+    });
+}
+
+function displaySingleCategory(category) {
+    const container = document.querySelector(".categories-container");
+    container.innerHTML = ""; 
+    category.items.forEach(item => {
+        const itemDiv = document.createElement("div");
+        itemDiv.className = "item";
+        itemDiv.innerHTML = `
+            <img src="${item.image}" alt="${item.name}">
+            <h3>${item.name}</h3>
+            <p>${item.description}</p>
+        `;
+        // 添加点击事件
+        itemDiv.addEventListener("click", () => {
+            localStorage.setItem("selectedDessert", JSON.stringify({
+                name: item.name,
+                description: item.description,
+                image: item.image,
+                category: category.name
+            }));
+            window.location.href = "detail.html";
+        });
+        container.appendChild(itemDiv);
+    });
+}
+// ...existing code...
+
