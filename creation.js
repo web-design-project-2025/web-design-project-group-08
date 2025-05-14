@@ -73,3 +73,4 @@ dietaryButtons.forEach(button => {
         button.classList.toggle('active');
     });
 });
+
