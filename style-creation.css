@@ -59,9 +59,7 @@
   .nav-container a {
     text-decoration: none; 
 }
-.nav-container a:hover {
-    text-decoration: underline;
-}
+
 
 /* Sub-navigation styles */
 .sub-nav {
@@ -530,6 +528,7 @@ display: inline-block;
 }
 
 
+<<<<<<< HEAD
 /*more details*/
 .creation-main {
     max-width: 1100px;
@@ -616,4 +615,99 @@ display: inline-block;
     .submit-button {
         width: 100%;
     }
+=======
+/*footer*/
+footer.thefooter {
+    background-color: #3D3D3D;
+    color: white;
+    padding: 20px 100px;
+}
+footer.thefooter .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+footer.thefooter .top > div {
+    flex: 1;
+    text-align: left; 
+}
+footer.thefooter .top h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+footer.thefooter .top p,
+footer.thefooter .top ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer.thefooter .top ul {
+    list-style: none;
+    padding: 0;
+}
+footer.thefooter .top ul li {
+    margin-bottom: 5px;
+}
+footer.thefooter .top ul li a:hover {
+    text-decoration: underline;
+}
+footer.thefooter .download img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+footer.thefooter .bottom {
+    background-color: #2C2C2C;
+    padding: 10px 0;
+    text-align: left;
+}
+footer.thefooter .bottom p {
+    margin: 0;
+    color: white;
+}
+footer.thefooter .bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: flex-start; 
+    gap: 15px;
+}
+footer.thefooter .bottom ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer.thefooter .bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+footer.thefooter .bottom {
+    background-color: #2C2C2C;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 12px; 
+    color: white;
+}
+footer.thefooter .bottom p {
+    margin: 0;
+    color: white;
+}
+footer.thefooter .bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+footer.thefooter .bottom ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px; 
+}
+footer.thefooter .bottom ul li a:hover {
+    text-decoration: underline;
+>>>>>>> UIUX
 }

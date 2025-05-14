@@ -65,6 +65,41 @@ body {
   margin: 0;
 }
 
+
+/* Sub-navigation styles */
+.sub-nav {
+    display: none; 
+    position: absolute;
+    background-color: #3B271A;
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.sub-nav li {
+    padding: 5px 20px;
+}
+.sub-nav li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    transition: background-color 0.3s;
+}
+.sub-nav li a:hover {
+    background-color: #575757;
+}
+
+li:hover > .sub-nav {
+    display: block;
+}
+
+li {
+    position: relative;
+}
+
 .search-bar {
   width: 250px;
   padding: 0.5rem;
