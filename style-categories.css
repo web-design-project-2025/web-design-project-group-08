@@ -56,9 +56,7 @@
   .nav-container a {
     text-decoration: none; 
 }
-.nav-container a:hover {
-    text-decoration: underline;
-}
+
 /* Sub-navigation styles */
 .sub-nav {
     display: none; 
