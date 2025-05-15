@@ -97,85 +97,92 @@
                 {
                     "name": "pie1",
                     "description": "Apple pie",
-                    "image": "images/cake1.jpg"
+                    "image": "images/pie1.jpg"
                 },
                 {
                     "name": "pie2",
                     "description": "Pumpkin pie",
-                    "image": "images/cookies5.jpg"
+                    "image": "images/pie2.jpg"
                 }
             ]
+        },
+{
+    "name": "Cups",
+    "items": [
+        {
+            "name": "Raspberry Cupcake",
+            "description": "Tangy raspberry frosting over fluffy vanilla base",
+            "image": "images/cup1.jpg"
         },
         {
-            "name": "Cups",
-            "items": [
-                {
-                    "name": "cup1",
-                    "description": "Vanilla pudding in cup",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "cup2",
-                    "description": "Chocolate mousse cup",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "cup3",
-                    "description": "Fruit parfait cup",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "cup4",
-                    "description": "Matcha cream cup",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "cup5",
-                    "description": "Tiramisu in cup",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "cup6",
-                    "description": "Caramel flan cup",
-                    "image": "images/cake1.jpg"
-                }
-            ]
+            "name": "Blueberry Cupcake",
+            "description": "Bursting blueberries in soft sponge with creamy topping",
+            "image": "images/cup2.jpg"
         },
         {
-            "name": "Mousses",
-            "items": [
-                {
-                    "name": "mousse1",
-                    "description": "Strawberry mousse",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "mousse2",
-                    "description": "Chocolate mousse",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "mousse3",
-                    "description": "Mango mousse",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "mousse4",
-                    "description": "Lemon mousse",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "mousse5",
-                    "description": "Matcha mousse",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "mousse6",
-                    "description": "Blueberry mousse",
-                    "image": "images/cake1.jpg"
-                }
-            ]
+            "name": "Matcha Chocolate Cupcake",
+            "description": "Rich matcha and chocolate swirl in every bite",
+            "image": "images/cup3.jpg"
         },
+        {
+            "name": "Wisteria Blossom Cupcake",
+            "description": "Floral-inspired pastel cupcake with violet cream",
+            "image": "images/cup4.jpg"
+        },
+        {
+            "name": "Rainbow Oreo Cupcake",
+            "description": "Colorful layers topped with crunchy Oreo crumbs",
+            "image": "images/cup5.jpg"
+        },
+        {
+            "name": "Mango Cupcake",
+            "description": "Tropical mango puree nestled in moist cake",
+            "image": "images/cup6.jpg"
+        }
+    ]
+},
+
+{
+    "name": "Mousses",
+    "items": [
+        {
+            "name": "Raspberry Mousse",
+            "description": "Light and tangy raspberry delight with a velvety finish",
+            "image": "images/Mousses1.jpg"
+        },
+        {
+            "name": "Chocolate Berry Mousse",
+            "description": "Rich chocolate mousse swirled with mixed berry compote",
+            "image": "images/Mousses2.jpg"
+        },
+        {
+            "name": "Classic Chocolate Mousse",
+            "description": "Silky dark chocolate mousse for true cocoa lovers",
+            "image": "images/Mousses3.jpg"
+        },
+        {
+            "name": "Matcha Mousse",
+            "description": "Earthy green tea mousse with a smooth creamy texture",
+            "image": "images/Mousses4.jpg"
+        },
+        {
+            "name": "Strawberry Mango Mousse",
+            "description": "Tropical duo of strawberry and mango in airy mousse layers",
+            "image": "images/Mousses5.jpg"
+        },
+        {
+            "name": "Oreo Mousse",
+            "description": "Cookies-and-cream mousse topped with crunchy Oreo bits",
+            "image": "images/Mousses6.jpg"
+        },
+        {
+            "name": "Raspberry Velvet Mousse",
+            "description": "Smooth raspberry mousse with a touch of berry glaze",
+            "image": "images/Mousses7.jpg"
+        }
+    ]
+},
+
         {
             "name": "Rice",
             "items": [
