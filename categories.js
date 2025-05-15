@@ -276,3 +276,19 @@ function displaySingleCategory(category) {
 }
 // ...existing code...
 
+// 假设你已经渲染了每个蛋糕的元素
+document.querySelectorAll('.category-link').forEach(link => {
+  link.addEventListener('click', function(e) {
+    if (this.dataset.category === 'Cakes') {
+      // 这里假设你有每个蛋糕的 item 元素
+      document.querySelectorAll('.cake-item').forEach(item => {
+        if (item.textContent.includes('Sakura Blossom Cake')) {
+          item.addEventListener('click', function() {
+            // 跳转到详情页，可以带参数
+            window.location.href = 'detail.html?item=sakura-blossom-cake';
+          });
+        }
+      });
+    }
+  });
+});

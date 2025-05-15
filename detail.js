@@ -98,3 +98,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
     loadComments();
 });
+
+const params = new URLSearchParams(window.location.search);
+const item = params.get('item');
+if (item === 'sakura-blossom-cake') {
+  // 渲染 Sakura Mousse Recipe 的内容
+  // 你可以用 innerHTML 或动态生成 DOM
+}
+
+// 渲染每个蛋糕时
+itemElement.addEventListener('click', function() {
+  window.location.href = 'detail.html';
+});
