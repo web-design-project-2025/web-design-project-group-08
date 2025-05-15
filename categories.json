@@ -1,50 +1,50 @@
 {
     "categories": [
 {
-    "name": "Cakes",
-    "items": [
-        {
-            "name": "Chestnut Cake",
-            "description": "For summer",
-            "image": "images/cake1.jpg"
+            "name": "Cakes",
+            "items": [
+                {
+                    "name": "Chestnut Cake",
+                    "description": "A delicate sponge cake filled with smooth chestnut cream, topped with glazed chestnuts.",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "Strawberry Chocolate Cake",
+                    "description": "Rich chocolate cake layered with fresh strawberries and whipped cream for a fruity twist.",
+                    "image": "images/cake2.jpg"
+                },
+                {
+                    "name": "Creamy Lemon Cake",
+                    "description": "A light and zesty lemon cake with velvety lemon cream and a buttery base.",
+                    "image": "images/cake3.jpg"
+                },
+                {
+                    "name": "Classic Chocolate Cake",
+                    "description": "Decadent and moist chocolate layers with a smooth chocolate ganache frosting.",
+                    "image": "images/cake4.jpg"
+                },
+                {
+                    "name": "Soy Milk Cake",
+                    "description": "A soft and airy cake made with soy milk for a gentle, wholesome flavor.",
+                    "image": "images/cake5.jpg"
+                },
+                {
+                    "name": "Caramel Biscuit Cake",
+                    "description": "Layers of crunchy biscuit and soft sponge soaked in caramel cream, finished with a golden glaze.",
+                    "image": "images/cake6.jpg"
+                },
+                {
+                    "name": "Matcha Fig Cake",
+                    "description": "Earthy matcha sponge paired with sweet fig jam and cream, a unique East-meets-West flavor.",
+                    "image": "images/cake7.jpg"
+                },
+                {
+                    "name": "Sakura Blossom Cake",
+                    "description": "A floral and subtly sweet cake infused with cherry blossom essence and pink cream layers.",
+                    "image": "images/cake8.jpg"
+                }
+            ]
         },
-        {
-            "name": "Strawberry Chocolate Cake",
-            "description": "For summer",
-            "image": "images/cake2.jpg"
-        },
-        {
-            "name": "Creamy Lemon Cake",
-            "description": "For summer",
-            "image": "images/cake3.jpg"
-        },
-        {
-            "name": "Classic Chocolate Cake",
-            "description": "For summer",
-            "image": "images/cake4.jpg"
-        },
-        {
-            "name": "Soy Milk Cake",
-            "description": "For summer",
-            "image": "images/cake5.jpg"
-        },
-        {
-            "name": "Caramel Biscuit Cake",
-            "description": "For summer",
-            "image": "images/cake6.jpg"
-        },
-        {
-            "name": "Matcha Fig Cake",
-            "description": "For summer",
-            "image": "images/cake7.jpg"
-        },
-        {
-            "name": "Sakura Blossom Cake",
-            "description": "For summer",
-            "image": "images/cake8.jpg"
-        }
-    ]
-},
 {
     "name": "Cookies",
     "items": [
@@ -90,22 +90,21 @@
         }
     ]
 },
-
+{
+    "name": "Pies",
+    "items": [
         {
-            "name": "Pies",
-            "items": [
-                {
-                    "name": "pie1",
-                    "description": "Apple pie",
-                    "image": "images/pie1.jpg"
-                },
-                {
-                    "name": "pie2",
-                    "description": "Pumpkin pie",
-                    "image": "images/pie2.jpg"
-                }
-            ]
+            "name": "Apple pie",
+            "description": "A classic golden-crusted pie filled with warm, cinnamon-spiced apple slices.",
+            "image": "images/pie1.jpg"
         },
+        {
+            "name": "Pumpkin pie",
+            "description": "Creamy spiced pumpkin filling nestled in a flaky crust — a cozy seasonal favorite.",
+            "image": "images/pie2.jpg"
+        }
+    ]
+},
 {
     "name": "Cups",
     "items": [
@@ -328,7 +327,6 @@
         }
     ]
 },
-
 { 
     "name": "Chocolates",
     "items": [
