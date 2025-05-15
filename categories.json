@@ -183,71 +183,71 @@
     ]
 },
 
+       {
+    "name": "Rice",
+    "items": [
         {
-            "name": "Rice",
-            "items": [
-                {
-                    "name": "rice1",
-                    "description": "Rice pudding",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "rice2",
-                    "description": "Coconut sticky rice",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "rice3",
-                    "description": "Mango sticky rice",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "rice4",
-                    "description": "Saffron rice dessert",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "rice5",
-                    "description": "Brown rice pudding",
-                    "image": "images/cake1.jpg"
-                }
-            ]
+            "name": "Fried Rice Cake",
+            "description": "Crispy golden rice cake with a chewy center",
+            "image": "images/rice1.jpg"
         },
         {
-            "name": "Candies",
-            "items": [
-                {
-                    "name": "candy1",
-                    "description": "Fruit hard candy",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "candy2",
-                    "description": "Caramel candy",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "candy3",
-                    "description": "Mint candy",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "candy4",
-                    "description": "Lollipop",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "candy5",
-                    "description": "Gummy bears",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "candy6",
-                    "description": "Toffee candy",
-                    "image": "images/cake1.jpg"
-                }
-            ]
+            "name": "Rice Crisp Biscuit",
+            "description": "Lightly toasted rice cracker with a hint of sweetness",
+            "image": "images/rice2.jpg"
         },
+        {
+            "name": "Steamed Rice Cake",
+            "description": "Soft and fluffy traditional steamed rice cake",
+            "image": "images/rice3.jpg"
+        },
+        {
+            "name": "Coconut Sticky Rice Cake",
+            "description": "Sticky rice infused with coconut and topped with coconut flakes",
+            "image": "images/rice4.jpg"
+        },
+        {
+            "name": "Black Sesame Rice Ball",
+            "description": "Chewy rice ball filled with aromatic black sesame paste",
+            "image": "images/rice5.jpg"
+        }
+    ]
+},
+{
+    "name": "Candies",
+    "items": [
+        {
+            "name": "Fruity Gummy",
+            "description": "Colorful and chewy fruit-flavored gummies",
+            "image": "images/candy1.jpg"
+        },
+        {
+            "name": "Strawberry Lollipop",
+            "description": "Sweet strawberry swirl lollipop on a stick",
+            "image": "images/candy2.jpg"
+        },
+        {
+            "name": "Mint Candy Cane",
+            "description": "Classic red-and-white peppermint candy cane",
+            "image": "images/candy3.jpg"
+        },
+        {
+            "name": "Crystal Sugar Drop",
+            "description": "Shiny hard candy with a crystalline glow",
+            "image": "images/candy4.jpg"
+        },
+        {
+            "name": "Marshmallow Puff",
+            "description": "Fluffy cloud-like vanilla marshmallows",
+            "image": "images/candy5.jpg"
+        },
+        {
+            "name": "Heart Gummy",
+            "description": "Cute heart-shaped gummies with a juicy burst",
+            "image": "images/candy6.jpg"
+        }
+    ]
+},
 {
     "name": "Frozen",
     "items": [
@@ -293,71 +293,77 @@
         }
     ]
 },
+{
+    "name": "Traditional",
+    "items": [
         {
-            "name": "Traditional",
-            "items": [
-                {
-                    "name": "traditional1",
-                    "description": "Red bean cake",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "traditional2",
-                    "description": "Mochi",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "traditional3",
-                    "description": "Lotus seed pastry",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "traditional4",
-                    "description": "Sticky rice dumpling",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "traditional5",
-                    "description": "Egg tart",
-                    "image": "images/cake1.jpg"
-                }
-            ]
+            "name": "Strawberry Napoleon",
+            "description": "Layered puff pastry with fresh strawberries and cream",
+            "image": "images/traditional1.jpg"
         },
         {
-            "name": "Chocolates",
-            "items": [
-                {
-                    "name": "chocolate1",
-                    "description": "Dark chocolate bar",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "chocolate2",
-                    "description": "Milk chocolate truffle",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "chocolate3",
-                    "description": "White chocolate cube",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "chocolate4",
-                    "description": "Hazelnut chocolate",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "chocolate5",
-                    "description": "Chocolate with fruit filling",
-                    "image": "images/cake1.jpg"
-                },
-                {
-                    "name": "chocolate6",
-                    "description": "Mint chocolate",
-                    "image": "images/cake1.jpg"
-                }
-            ]
+            "name": "Cream Puff Tower",
+            "description": "Tower of delicate choux pastry filled with vanilla cream",
+            "image": "images/traditional2.jpg"
+        },
+        {
+            "name": "Mooncake",
+            "description": "Traditional pastry with sweet or savory filling",
+            "image": "images/traditional3.jpg"
+        },
+        {
+            "name": "Butter Crisp Pastry",
+            "description": "Flaky pastry with a rich buttery flavor",
+            "image": "images/traditional4.jpg"
+        },
+        {
+            "name": "Vanilla Cream Puff",
+            "description": "Soft puff pastry filled with smooth cream",
+            "image": "images/traditional5.jpg"
+        },
+        {
+            "name": "Cherry Almond Cake",
+            "description": "Moist cake infused with cherries and almond aroma",
+            "image": "images/traditional6.jpg"
         }
+    ]
+},
+
+{ 
+    "name": "Chocolates",
+    "items": [
+        {
+            "name": "Peanut Crunch Chocolate",
+            "description": "Crunchy milk chocolate bar filled with roasted peanuts",
+            "image": "images/chocolates1.jpg"
+        },
+        {
+            "name": "Almond Delight Chocolate",
+            "description": "Smooth milk chocolate with whole almonds",
+            "image": "images/chocolates2.jpg"
+        },
+        {
+            "name": "Raspberry Infused Chocolate",
+            "description": "Bittersweet chocolate with tangy raspberry filling",
+            "image": "images/chocolates3.jpg"
+        },
+        {
+            "name": "Pistachio Cream Chocolate",
+            "description": "Creamy chocolate blended with crushed pistachios",
+            "image": "images/chocolates4.jpg"
+        },
+        {
+            "name": "White Chocolate with Almond",
+            "description": "Silky white chocolate with crunchy batten almonds",
+            "image": "images/chocolates5.jpg"
+        },
+        {
+            "name": "Hazelnut Praline Chocolate",
+            "description": "Rich chocolate filled with smooth hazelnut praline",
+            "image": "images/chocolates6.jpg"
+        }
+    ]
+}
     ]
 }
 
