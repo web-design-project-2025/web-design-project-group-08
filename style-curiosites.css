@@ -55,11 +55,10 @@
     text-decoration: none;
   }
   .nav-container a {
+    font-family: 'Jua', sans-serif;
     text-decoration: none; 
 }
-.nav-container a:hover {
-    text-decoration: underline;
-}
+
 /* Sub-navigation styles */
 .sub-nav {
     display: none; 

@@ -45,10 +45,9 @@ a {
 }
 .nav-container a {
     text-decoration: none;
+    font-family: 'Jua', sans-serif;
 }
-.nav-container a:hover {
-    text-decoration: underline;
-}
+
 
 /* Sub-navigation styles */
 .sub-nav {
