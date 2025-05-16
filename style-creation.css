@@ -358,15 +358,100 @@ li {
     margin-top: 20px;
 }
 .submit-button {
-    background-color: #FF6F61;
-    color: white;
-    padding: 10px 20px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 18px;
+    padding: 14px 38px;
 }
-.submit-button:hover {
-    background-color: #E65A50;
+
+
+.ingredient-item, .instruction-steps {
+    background: #F9F6F2;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 4px rgba(60,40,20,0.04);
+}
+
+/* Footer */
+footer.thefooter {
+    background-color: #3D3D3D;
+    color: white;
+    padding: 20px 100px;
+}
+footer.thefooter .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+footer.thefooter .top > div {
+    flex: 1;
+    text-align: left;
+}
+footer.thefooter .top h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+footer.thefooter .top p,
+footer.thefooter .top ul li a {
+    color: white;
+    text-decoration: none;
+}
+footer.thefooter .top ul {
+    list-style: none;
+    padding: 0;
+}
+footer.thefooter .top ul li {
+    margin-bottom: 5px;
+}
+footer.thefooter .top ul li a:hover {
+    text-decoration: underline;
+}
+footer.thefooter .download img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+footer.thefooter .bottom {
+    background-color: #2C2C2C;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: white;
+}
+footer.thefooter .bottom p {
+    margin: 0;
+    color: white;
+}
+footer.thefooter .bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+footer.thefooter .bottom ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+footer.thefooter .bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 900px) {
+    .creation-main {
+        grid-template-columns: 1fr;
+        padding: 18px 4vw;
+        gap: 18px;
+    }
+    .add-images, .instruction, .ingredients {
+        padding: 18px 8px;
+    }
+    .submit-button {
+        width: 100%;
+    }
 }
