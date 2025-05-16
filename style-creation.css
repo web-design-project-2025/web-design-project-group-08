@@ -58,9 +58,7 @@
   }
   .nav-container a {
     text-decoration: none; 
-}
-.nav-container a:hover {
-    text-decoration: underline;
+    font-family: 'Jua', sans-serif;
 }
 
 /* Sub-navigation styles */
@@ -357,7 +355,7 @@ display: inline-block;
     align-items: center;
     cursor: pointer;
     transition: border-color 0.3s, background-color 0.3s;
-    margin-left: 10px; /* 与步骤输入框保持间距 */
+    margin-left: 10px; 
 }
 
 .add-photo-box:hover {

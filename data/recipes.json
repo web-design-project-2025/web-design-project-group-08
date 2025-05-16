@@ -1,0 +1,60 @@
+{
+  "recipes": [
+    {
+      "name": "Spaghetti Carbonara",
+      "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 large eggs",
+        "50g grated Parmesan cheese",
+        "Salt and black pepper"
+      ],
+      "steps": [
+        "Cook the spaghetti in salted boiling water until al dente.",
+        "Fry the pancetta until crisp.",
+        "Beat the eggs and mix with the Parmesan cheese.",
+        "Drain the pasta and combine quickly with the egg and cheese mixture.",
+        "Add pancetta and season with pepper. Serve immediately."
+      ]
+    },
+    {
+      "name": "Guacamole",
+      "description": "A creamy avocado-based dip, perfect for chips or as a side.",
+      "ingredients": [
+        "2 ripe avocados",
+        "1 small onion, finely chopped",
+        "1 tomato, diced",
+        "1 lime, juiced",
+        "Salt and pepper"
+      ],
+      "steps": [
+        "Cut the avocados in half, remove the pit, and scoop out the flesh.",
+        "Mash the avocado in a bowl with a fork.",
+        "Mix in the onion, tomato, and lime juice.",
+        "Season with salt and pepper to taste.",
+        "Serve immediately or chill briefly."
+      ]
+    },
+    {
+      "name": "Pancakes",
+      "description": "Fluffy pancakes perfect for a hearty breakfast.",
+      "ingredients": [
+        "1 cup all-purpose flour",
+        "2 tablespoons sugar",
+        "2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "1 cup milk",
+        "1 egg",
+        "2 tablespoons melted butter"
+      ],
+      "steps": [
+        "In a bowl, mix the flour, sugar, baking powder, and salt.",
+        "In another bowl, whisk the milk, egg, and melted butter.",
+        "Combine the wet and dry ingredients until just mixed.",
+        "Heat a skillet over medium heat and pour 1/4 cup of batter for each pancake.",
+        "Cook until bubbles form, flip, and cook until golden brown."
+      ]
+    }
+  ]
+}

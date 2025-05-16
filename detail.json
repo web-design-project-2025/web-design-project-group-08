@@ -1,0 +1,300 @@
+{
+  "html": {
+    "head": {
+      "meta": [
+        { "charset": "UTF-8" },
+        { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+      ],
+      "links": [
+        { "rel": "stylesheet", "href": "detail.css" },
+        { "rel": "stylesheet", "href": "style.css" },
+        { "rel": "stylesheet", "href": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" }
+      ],
+      "scripts": [
+        { "src": "ratingsNheart.js", "defer": true }
+      ],
+      "title": "Sakura Mousse Recipe"
+    },
+    "body": {
+      "header": {
+        "class": "top-bar",
+        "nav": {
+          "class": "nav-container",
+          "logo": {
+            "href": "index.html",
+            "img": "img/logo.png",
+            "brand": "SUGAR CRUSH"
+          },
+          "search": {
+            "type": "text",
+            "class": "search-bar",
+            "placeholder": "Hinted search text                     🔍"
+          },
+          "links": [
+            { "href": "creation.html", "text": "CREATIONS" },
+            { "href": "categories.html", "text": "CATEGORIES" }
+          ],
+          "user": {
+            "href": "userpage.html",
+            "img": "img/userlogo.png"
+          }
+        }
+      },
+      "main": {
+        "container": {
+          "image": {
+            "src": "img/Sakura Mousse.jpg",
+            "alt": "Image of a Sakura Mousse"
+          },
+          "intro": {
+            "stars": [1, 1, 1, 1, 0],
+            "heart": true,
+            "title": "Introduction",
+            "description": "🌸 Sakura Mousse \n A light and elegant dessert that captures the beauty of spring. Layers of delicate sakura jelly and fluffy sakura mousse create a soft, floral flavor that melts in your mouth like falling petals."
+          }
+        },
+        "ingredients": [
+          {
+            "section": "For the Sakura Jelly Layer",
+            "items": [
+              "Salted sakura flowers (edible, preserved in salt) - 6-8 pieces",
+              "Water - 200 ml",
+              "Sugar - 20 g",
+              "Gelatin sheets - 3 g (about 1.5 sheets)"
+            ]
+          },
+          {
+            "section": "For the Sakura Mousse Layer",
+            "items": [
+              "Whipping Cream - 200 ml",
+              "Milk - 100 Milk",
+              "Gelatin sheets - 6 g (about 3 sheets)",
+              "Sugar - 40 g (adjust to taste)",
+              "Sakura syrup or jam (optional) - 1-2 tbsp"
+            ]
+          },
+          {
+            "section": "Optional Decoration",
+            "items": [
+              "Sakura petals - as desired",
+              "Edible silver leaf - as desired",
+              "Mint leaves - as desired",
+              "Sugar flowers - as desired"
+            ]
+          }
+        ],
+        "instructions": [
+          {
+            "step": "Prepare the Sakura Flowers",
+            "details": [
+              "Soak the salted sakura flowers in water for about 30 minutes to remove excess salt.",
+              "Gently pat dry with paper towels. Set aside."
+            ]
+          },
+          {
+            "step": "Make the Jelly Layer",
+            "details": [
+              "Soak 3 g gelatin sheets in cold water until soft.",
+              "In a small saucepan, heat 200 ml water and 20 g sugar until the sugar dissolves. Do not boil.",
+              "Remove from heat and stir in the softened gelatin until completely dissolved.",
+              "Place the prepared sakura flowers at the bottom of clear cups or molds.",
+              "Pour the jelly mixture over the flowers and refrigerate until set (about 1 hour)."
+            ]
+          },
+          {
+            "step": "Make the Mousse Layer",
+            "details": [
+              "Soak 6 g gelatin sheets in cold water until soft.",
+              "Heat 100 ml milk in a saucepan (do not boil), add sugar and the softened gelatin, stirring until fully dissolved.",
+              "Optional: add sakura syrup or jam for color and floral taste. Let it cool to room temperature.",
+              "Whip 200 ml cream to soft peaks (about 60% whipped).",
+              "Gently fold the cooled milk mixture into the whipped cream until smooth and combined."
+            ]
+          },
+          {
+            "step": "Assemble the Mousse",
+            "details": [
+              "Once the jelly layer is fully set, pour the mousse mixture on top.",
+              "Refrigerate for at least 4 hours or until completely set."
+            ]
+          },
+          {
+            "step": "Decorate and Serve",
+            "details": [
+              "Garnish the top with sakura petals, silver leaf, mint, or sugar flowers as desired.",
+              "Serve chilled and enjoy this delicate springtime dessert!"
+            ]
+          }
+        ],
+        "comments": {
+          "input": {
+            "textarea_id": "comment-box",
+            "stars": 5,
+            "submit_id": "submit-button"
+          },
+          "list": [
+            {
+              "stars": [1, 1, 1, 1, 0],
+              "user": "@blossombites",
+              "text": "Absolutely stunning! The flavor was so gentle and elegant, and the sakura jelly was like a piece of art. Perfect for spring afternoons."
+            },
+            {
+              "stars": [1, 1, 1, 1, 1],
+              "user": "@matchalover91",
+              "text": "Beautiful presentation and very light texture. I wish the floral flavor was a bit stronger, but still one of the prettiest desserts I’ve had."
+            },
+            {
+              "stars": [1, 1, 1, 1, 0],
+              "user": "@minimalist_momo",
+              "text": "Melt-in-your-mouth smooth. Not too sweet, just the right hint of cherry blossom. Ideal for people who love subtle flavors."
+            },
+            {
+              "stars": [1, 1, 1, 0, 0],
+              "user": "@dessertqueen88",
+              "text": "Nice concept, and very aesthetic. I personally prefer richer flavors, but this is lovely for those who enjoy delicate desserts."
+            },
+            {
+              "stars": [1, 1, 1, 1, 1],
+              "user": "@hanami.honey",
+              "text": "Reminds me of cherry blossom season in Kyoto. Light, dreamy, and so refreshing. I’ll definitely make this again!"
+            }
+          ]
+        }
+      },
+      "footer": {}
+    }
+  },
+  "css": {
+    "body": {
+      "background-color": "bisque"
+    },
+    "container": {
+      "display": "grid",
+      "grid-template-columns": "37rem 1fr",
+      "background-color": "rgb(193, 171, 145)",
+      "height": "39rem"
+    },
+    "food-image": {
+      "width": "30rem",
+      "height": "31rem",
+      "border-radius": "1rem",
+      "margin": "3.5rem",
+      "margin-top": "5rem"
+    },
+    "rating-icons": {
+      "font-size": "3rem",
+      "color": "rgb(255, 196, 0)",
+      "margin-top": "5rem"
+    },
+    "rating-icons.no-star": {
+      "color": "rgb(223, 223, 223)"
+    },
+    "heart-icon": {
+      "font-size": "3.5rem",
+      "color": "rgb(223, 223, 223)",
+      "margin-left": "43.5rem",
+      "cursor": "pointer"
+    },
+    "h1": {
+      "font-size": "3.5rem",
+      "text-align": "center",
+      "margin-top": "2rem",
+      "margin-bottom": "2rem"
+    },
+    "h2": {
+      "margin-top": "1rem",
+      "font-size": "3rem"
+    },
+    "p": {
+      "font-size": "1.5rem"
+    },
+    "ul": {
+      "font-size": "1.5rem",
+      "margin-bottom": "2rem"
+    },
+    "li": {
+      "margin-left": "2.5rem"
+    },
+    "ingredients-text": {
+      "text-align": "center",
+      "margin-right": "0.1rem"
+    },
+    "instructions-text": {
+      "margin-left": "2.5rem",
+      "font-weight": "700"
+    },
+    "comment-section": {
+      "margin-top": "4rem",
+      "padding-top": "1px",
+      "padding-bottom": "1rem",
+      "background-color": "rgb(223, 223, 223)"
+    },
+    "comment-section h2": {
+      "margin-left": "7.5rem"
+    },
+    "#comment-box": {
+      "border": "0",
+      "border-radius": "0.5rem",
+      "width": "90rem",
+      "height": "10rem",
+      "font-size": "1.3rem",
+      "resize": "none",
+      "display": "block",
+      "margin-left": "auto",
+      "margin-right": "auto"
+    },
+    "commenters": {
+      "background-color": "white",
+      "border-radius": "0.5rem",
+      "width": "90rem",
+      "height": "auto",
+      "padding": "0.5rem",
+      "margin-left": "auto",
+      "margin-right": "auto",
+      "margin-bottom": "1rem"
+    },
+    "commenters i": {
+      "color": "rgb(255, 139, 139)",
+      "font-size": "2rem",
+      "margin-bottom": "1rem"
+    },
+    "commenters i.no-star": {
+      "color": "rgb(181, 181, 181)"
+    },
+    "comment-section .stars": {
+      "display": "flex",
+      "align-items": "center",
+      "gap": "7px"
+    },
+    "ratings-button": {
+      "display": "flex",
+      "margin-top": "0.5rem",
+      "margin-bottom": "7rem"
+    },
+    "stars": {
+      "margin-left": "7.5rem"
+    },
+    "stars i": {
+      "color": "rgb(252, 252, 252)",
+      "font-size": "2.4rem",
+      "cursor": "pointer",
+      "transition": "color 0.2 ease"
+    },
+    "stars i.Active": {
+      "color": "rgb(255, 139, 139)"
+    },
+    "#submit-button": {
+      "border": "1",
+      "border-radius": "0.5rem",
+      "border-color": "rgb(198, 124, 124)",
+      "background-color": "rgb(255, 162, 162)",
+      "color": "white",
+      "font-size": "1.3rem",
+      "margin-left": "70rem",
+      "padding-top": "0",
+      "padding-bottom": "0",
+      "padding-left": "0.2rem",
+      "padding-right": "0.2rem"
+    }
+  }
+}
