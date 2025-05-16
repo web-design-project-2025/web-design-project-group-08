@@ -329,3 +329,136 @@ footer.thefooter .bottom ul li a:hover {
     object-fit: cover;
     border-radius: 8px;
 }
+
+/* Header */
+@media (max-width: 1100px) {
+    .nav-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-container > * {
+        margin-bottom: 10px;
+    }
+    .search-container {
+        width: 100%;
+        order: 10;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-container {
+        align-items: flex-start;
+        gap: 8px;
+        padding: 10px 5px;
+    }
+    .nav-container > * {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .search-container {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .logo-container {
+        justify-content: flex-start;
+    }
+}
+
+.user-logo-text {
+    color: white;
+    font-size: 16px;          
+    font-family: inherit;     
+    font-weight: normal;    
+    text-decoration: none;
+    display: none;
+    padding: 5px 10px;       
+    border-radius: 5px;
+    background: none;
+    transition: background-color 0.3s;
+    line-height: 1.5;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+}
+.user-logo-text:hover {
+    background-color: #575757;
+}
+
+@media (max-width: 700px) {
+    .user-logo-img {
+        display: none !important;
+    }
+    .user-logo-text {
+        display: inline-block !important;
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
+
+/* Footer */
+@media (max-width: 900px) {
+    footer.thefooter {
+        padding: 20px 30px;
+    }
+    footer.thefooter .top {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 0;
+    }
+    footer.thefooter .top > div {
+        text-align: left;
+        width: 100%;
+    }
+    footer.thefooter .download {
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    footer.thefooter {
+        padding: 15px 5vw;
+        font-size: 15px;
+    }
+    footer.thefooter .top {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0;
+    }
+    footer.thefooter .top > div {
+        width: 100%;
+        min-width: 0;
+        text-align: left;
+    }
+    footer.thefooter .download img {
+        max-width: 80px;
+    }
+    footer.thefooter .top h2 {
+        font-size: 1.1em;
+    }
+    footer.thefooter .top p,
+    footer.thefooter .top ul li a {
+        font-size: 0.98em;
+    }
+    footer.thefooter .top ul {
+        padding-left: 0;
+    }
+    footer.thefooter .bottom {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+        font-size: 12px;
+        text-align: center;
+    }
+    footer.thefooter .bottom ul {
+        justify-content: center;
+        gap: 10px;
+    }
+}
