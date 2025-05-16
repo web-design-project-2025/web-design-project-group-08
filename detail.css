@@ -293,9 +293,6 @@ footer.thefooter .bottom ul li a:hover {
 }
 
 @media screen and (max-width: 1234px) {
-    .comment-section {
-        background-color: aquamarine;
-    }
     #submit-button {
         margin-left: auto;
     }
