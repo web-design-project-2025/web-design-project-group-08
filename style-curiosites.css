@@ -445,6 +445,15 @@ body {
   width: 100%;
   text-align: left;
 }
+
+.scrolling-bg {
+  min-height: 100vh;
+  background-image: url('images/history.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transition: background-image 0.6s;
+}
 /* 响应式 */
 @media (max-width: 700px) {
   .news-detail {

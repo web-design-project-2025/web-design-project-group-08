@@ -45,7 +45,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
-  // 可选：为每个主题加一张图片（你可以根据id自定义图片路径）
   let imgHtml = '';
   if (item.id === 'history') imgHtml = '<img src="images/history.jpg" alt="History of Desserts" class="detail-img">';
   if (item.id === 'global') imgHtml = '<img src="images/global.jpg" alt="Global Desserts" class="detail-img">';
