@@ -65,10 +65,10 @@ dietaryButtons.forEach(button => {
                 ? 'images/sugarfreecolor.png'
                 : 'images/sugarfree.png';
         } else if (button.classList.contains('vegetarian')) {
-            img.src = img.src.includes('vegetarian.png')
-                ? 'images/vegetariancolor.png'
-                : 'images/vegetarian.png';
-        }
+    img.src = img.src.includes('vegentarian.png')
+        ? 'images/vegentariancolor.png'
+        : 'images/vegentarian.png';
+}
 
         button.classList.toggle('active');
     });
