@@ -1,0 +1,61 @@
+[
+  {
+    "id": "history",
+    "title": "The Past and Present of Desserts",
+    "summary": "From temple offerings to everyday happiness: the journey of sweets from ancient Egypt to modern cakes and mousses.",
+    "details": [
+      "<b>The origins of ancient desserts:</b> As early as ancient Egypt (before 3000 BC), people made sweets from honey and nuts as offerings in rituals; the ancient Romans cooked figs with honey, considered an early form of dessert.",
+      "<b>The rise and revolution of sugar:</b> In the Middle Ages, sugar was extremely expensive and only accessible to nobility. It wasn’t until the 18th century, when sugar prices dropped, that desserts gradually became popular among ordinary families.",
+      "<b>The birth of modern desserts:</b> In the 18th and 19th centuries, with inventions like condensed milk and whipped cream, cakes, cream desserts, and mousses flourished."
+    ]
+  },
+  {
+    "id": "global",
+    "title": "A Global Dessert Geography",
+    "summary": "How the world enjoys sweetness: France, Japan, India, Turkey, and the Nordic countries each have their own dessert stories.",
+    "details": [
+      "<b>France 🇫🇷:</b> The dessert capital, known for macarons, mille-feuille (Napoleon), crepes, emphasizing delicacy and layers.",
+      "<b>Japan 🇯🇵:</b> Wagashi highlight seasonality—like sakura mochi in spring, chestnut yokan in autumn. Recently, Western desserts have been “Japanized,” e.g., matcha tiramisu.",
+      "<b>India 🇮🇳:</b> Desserts often use milk, cream, cardamom, e.g., Gulab Jamun and Barfi.",
+      "<b>Turkey 🇹🇷:</b> Baklava is iconic, layering phyllo pastry, honey, and nuts for astonishing sweetness.",
+      "<b>Nordic countries 🇸🇪🇩🇰:</b> Emphasize “fika” culture—warm, comforting treats like cinnamon rolls, cardamom bread, almond cakes."
+    ]
+  },
+  {
+    "id": "unpleasant",
+    "title": "The World’s “Most Unpleasant” Desserts?",
+    "summary": "From Iceland’s Hákarl to Italy’s Casu Marzu, discover the world’s most challenging sweet (and not-so-sweet) experiences.",
+    "details": [
+      "<b>Iceland’s “Shark Pudding” Hákarl:</b> Not a dessert, but sometimes eaten as a daring “after-meal taste” — fermented shark meat with an ammonia-like flavor.",
+      "<b>Italy’s Casu Marzu:</b> A cheese containing live maggots; though not a traditional dessert, it sometimes appears in rural sweet settings as a “courage challenge.”",
+      "<b>Ancient Chinese “Tang You Ba Ba” (Sugar Oil Cake):</b> Not unpleasant but “overly sweet,” sometimes mistaken by foreign tourists as “fried syrup.”",
+      "<b>Philippines’ Halo-Halo:</b> A mix of ingredients like red beans, jelly, corn, purple yam ice cream—some find it “too complex.”"
+    ]
+  },
+  {
+    "id": "trivia",
+    "title": "Fun Dessert Trivia",
+    "summary": "Did you know “Tiramisu” means “pick me up”? Or that rainbow cake is linked to LGBT culture?",
+    "details": [
+      "“Tiramisu” means “pick me up”: referring to the coffee and alcohol content that energizes.",
+      "Rainbow cake’s origin linked to LGBT culture: symbolizing “sweetness and diversity.”",
+      "“Profiterole” was originally a royal pet’s name? Some French records say the name derives from a queen’s beloved dog."
+    ]
+  },
+  {
+    "id": "future",
+    "title": "When Desserts Meet Technology",
+    "summary": "3D-printed cakes, molecular gastronomy, and AI dessert designers—see the future of sweets!",
+    "details": [
+      "3D-printed desserts: Already used in wedding customization and restaurant experimental kitchens, possibly soon common in home dessert printers.",
+      "Molecular desserts: Made with liquid nitrogen and gelling techniques producing spherical juices, smoky ice cream, emphasizing visual impact and surprise.",
+      "AI dessert designers: AI analyzes user taste preferences and dietary habits to create the most personalized dessert recipes."
+    ]
+  },
+  {
+    "id": "user",
+    "title": "User Submissions",
+    "summary": "Share your most amazing or strangest dessert experience! Click to submit your story.",
+    "details": []
+  }
+]
