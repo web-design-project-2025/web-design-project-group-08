@@ -225,3 +225,32 @@ div.innerHTML = `
     <p>${item.description}</p>
     <small>${item.category}</small>
 `;
+
+function displayAllCategories(categories) {
+    const container = document.querySelector(".categories-container");
+    container.innerHTML = ""; 
+    categories.forEach(category => {
+        category.items.forEach(item => {
+            const itemDiv = document.createElement("div");
+            itemDiv.className = "item";
+            itemDiv.innerHTML = `
+                <img src="${item.image}" alt="${item.name}">
+                <h3>${item.name}</h3>
+                <p>${item.description}</p>
+            `;
+            // 只为 Sakura Blossom Cake 添加跳转
+            if (item.name === "Sakura Blossom Cake") {
+                itemDiv.style.cursor = "pointer";
+                itemDiv.addEventListener("click", () => {
+                    localStorage.setItem("selectedDessert", JSON.stringify({
+                        name: item.name,
+                        description: item.description,
+                        image: item.image
+                    }));
+                    window.location.href = "detail.html";
+                });
+            }
+            container.appendChild(itemDiv);
+        });
+    });
+}

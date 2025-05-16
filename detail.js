@@ -110,3 +110,8 @@ if (item === 'sakura-blossom-cake') {
 itemElement.addEventListener('click', function() {
   window.location.href = 'detail.html';
 });
+
+const dessert = JSON.parse(localStorage.getItem("selectedDessert"));
+if (dessert) {
+    // 渲染图片、标题、描述
+}
