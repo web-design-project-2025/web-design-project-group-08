@@ -277,10 +277,9 @@ body {
 
 .news-main {
   max-width: 1100px;
-  margin: -60px auto 0 auto;
+  margin: 60px auto 0 auto; 
   padding: 0 20px 40px 20px;
 }
-
 .news-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -375,6 +374,8 @@ body {
   margin-bottom: 0.7rem;
   font-size: 1rem;
 }
+
+
 @media (max-width: 700px) {
   .header-title { padding: 1rem 0.5rem; }
   .news-main { padding: 0 5px 30px 5px; }

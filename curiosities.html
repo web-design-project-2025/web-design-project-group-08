@@ -53,91 +53,10 @@
         </a>   
     </nav>
 </header>
-  <main class="news-main">
-    <section class="news-grid">
-      <a class="news-card" href="#history">
-        <h2>The Past and Present of Desserts</h2>
-        <p>From temple offerings to everyday happiness: the journey of sweets from ancient Egypt to modern cakes and mousses.</p>
-      </a>
-      <a class="news-card" href="#global">
-        <h2>A Global Dessert Geography</h2>
-        <p>How the world enjoys sweetness: France, Japan, India, Turkey, and the Nordic countries each have their own dessert stories.</p>
-      </a>
-      <a class="news-card" href="#unpleasant">
-        <h2>The World’s “Most Unpleasant” Desserts?</h2>
-        <p>From Iceland’s Hákarl to Italy’s Casu Marzu, discover the world’s most challenging sweet (and not-so-sweet) experiences.</p>
-      </a>
-      <a class="news-card" href="#trivia">
-        <h2>Fun Dessert Trivia</h2>
-        <p>Did you know “Tiramisu” means “pick me up”? Or that rainbow cake is linked to LGBT culture?</p>
-      </a>
-      <a class="news-card" href="#future">
-        <h2>When Desserts Meet Technology</h2>
-        <p>3D-printed cakes, molecular gastronomy, and AI dessert designers—see the future of sweets!</p>
-      </a>
-      <a class="news-card" href="#user">
-        <h2>User Submissions</h2>
-        <p>Share your most amazing or strangest dessert experience! Click to submit your story.</p>
-      </a>
-    </section>
-
-    <!-- 详细内容区，可选 -->
-    <section id="history" class="news-detail">
-      <h2>The Past and Present of Desserts</h2>
-      <ul>
-        <li><b>The origins of ancient desserts:</b> As early as ancient Egypt (before 3000 BC), people made sweets from honey and nuts as offerings in rituals; the ancient Romans cooked figs with honey, considered an early form of dessert.</li>
-        <li><b>The rise and revolution of sugar:</b> In the Middle Ages, sugar was extremely expensive and only accessible to nobility. It wasn’t until the 18th century, when sugar prices dropped, that desserts gradually became popular among ordinary families.</li>
-        <li><b>The birth of modern desserts:</b> In the 18th and 19th centuries, with inventions like condensed milk and whipped cream, cakes, cream desserts, and mousses flourished.</li>
-      </ul>
-    </section>
-    <section id="global" class="news-detail">
-      <h2>A Global Dessert Geography</h2>
-      <ul>
-        <li><b>France 🇫🇷:</b> The dessert capital, known for macarons, mille-feuille (Napoleon), crepes, emphasizing delicacy and layers.</li>
-        <li><b>Japan 🇯🇵:</b> Wagashi highlight seasonality—like sakura mochi in spring, chestnut yokan in autumn. Recently, Western desserts have been “Japanized,” e.g., matcha tiramisu.</li>
-        <li><b>India 🇮🇳:</b> Desserts often use milk, cream, cardamom, e.g., Gulab Jamun and Barfi.</li>
-        <li><b>Turkey 🇹🇷:</b> Baklava is iconic, layering phyllo pastry, honey, and nuts for astonishing sweetness.</li>
-        <li><b>Nordic countries 🇸🇪🇩🇰:</b> Emphasize “fika” culture—warm, comforting treats like cinnamon rolls, cardamom bread, almond cakes.</li>
-      </ul>
-    </section>
-    <section id="unpleasant" class="news-detail">
-      <h2>The World’s “Most Unpleasant” Desserts?</h2>
-      <ul>
-        <li><b>Iceland’s “Shark Pudding” Hákarl:</b> Not a dessert, but sometimes eaten as a daring “after-meal taste” — fermented shark meat with an ammonia-like flavor.</li>
-        <li><b>Italy’s Casu Marzu:</b> A cheese containing live maggots; though not a traditional dessert, it sometimes appears in rural sweet settings as a “courage challenge.”</li>
-        <li><b>Ancient Chinese “Tang You Ba Ba” (Sugar Oil Cake):</b> Not unpleasant but “overly sweet,” sometimes mistaken by foreign tourists as “fried syrup.”</li>
-        <li><b>Philippines’ Halo-Halo:</b> A mix of ingredients like red beans, jelly, corn, purple yam ice cream—some find it “too complex.”</li>
-      </ul>
-    </section>
-    <section id="trivia" class="news-detail">
-      <h2>Fun Dessert Trivia</h2>
-      <ul>
-        <li>“Tiramisu” means “pick me up”: referring to the coffee and alcohol content that energizes.</li>
-        <li>Rainbow cake’s origin linked to LGBT culture: symbolizing “sweetness and diversity.”</li>
-        <li>“Profiterole” was originally a royal pet’s name? Some French records say the name derives from a queen’s beloved dog.</li>
-      </ul>
-    </section>
-    <section id="future" class="news-detail">
-      <h2>When Desserts Meet Technology</h2>
-      <ul>
-        <li>3D-printed desserts: Already used in wedding customization and restaurant experimental kitchens, possibly soon common in home dessert printers.</li>
-        <li>Molecular desserts: Made with liquid nitrogen and gelling techniques producing spherical juices, smoky ice cream, emphasizing visual impact and surprise.</li>
-        <li>AI dessert designers: AI analyzes user taste preferences and dietary habits to create the most personalized dessert recipes.</li>
-      </ul>
-    </section>
-    <section id="user" class="news-detail">
-      <h2>User Submissions | The Most Amazing Dessert I’ve Ever Tried Is...</h2>
-      <form class="user-form">
-        <label for="user-story">Share your story:</label>
-        <textarea id="user-story" rows="3" placeholder="E.g. I tried stinky tofu ice cream in Taiwan—it really made me question life!"></textarea>
-        <button type="submit">Submit</button>
-      </form>
-      <div class="user-stories">
-        <p>“I tried stinky tofu ice cream in Taiwan—it really made me question life!”</p>
-        <p>“Once in the Nordics, I ate licorice ice cream—salty, sweet, spicy—a true ultimate interpretation of ‘sweet’ by Nordic people.”</p>
-      </div>
-    </section>
-  </main>
+<main class="news-main">
+  <section class="news-grid" id="news-grid"></section>
+</main>
+<script src="curiosities.js"></script>
 <footer class="thefooter">
     <div class="top">
         <div class="introduction">
@@ -180,7 +99,6 @@
     </div>
 </footer>
 
-<script src="categories.js"></script>
 </body>
 </html>
 

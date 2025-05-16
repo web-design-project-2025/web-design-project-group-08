@@ -4,6 +4,11 @@
             "name": "Cakes",
             "items": [
                 {
+                    "name": "Sakura Blossom Cake",
+                    "description": "A floral and subtly sweet cake infused with cherry blossom essence and pink cream layers.",
+                    "image": "images/cake8.jpg"
+                },
+                {
                     "name": "Chestnut Cake",
                     "description": "A delicate sponge cake filled with smooth chestnut cream, topped with glazed chestnuts.",
                     "image": "images/cake1.jpg"
@@ -37,11 +42,6 @@
                     "name": "Matcha Fig Cake",
                     "description": "Earthy matcha sponge paired with sweet fig jam and cream, a unique East-meets-West flavor.",
                     "image": "images/cake7.jpg"
-                },
-                {
-                    "name": "Sakura Blossom Cake",
-                    "description": "A floral and subtly sweet cake infused with cherry blossom essence and pink cream layers.",
-                    "image": "images/cake8.jpg"
                 }
             ]
         },

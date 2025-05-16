@@ -316,6 +316,7 @@ main {
     color: #777;
     margin-top: 5px;
 }
+
 /* Responsive design */
 @media (max-width: 768px) {
     .categories-container {
@@ -341,6 +342,16 @@ main {
     margin-bottom: 10px;
     background: #f5f5f5;
 }
+
+
+
+
+
+
+
+
+
+
 
 /*footer*/
 footer.thefooter {
