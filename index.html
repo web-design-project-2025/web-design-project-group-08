@@ -4,50 +4,156 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sugar Crush</title>
-  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/icon" href="img/faviconlollipop.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Jua&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
+<script src="js/main.js"></script>
 <body>
-  <header class="top-bar">
-    <div class="logo"> ◎ SUGAR CRUSH</div>
-    <input type="text" placeholder="Hinted search text" />
-    <nav>
-      <a href="creations.html">CREATIONS</a>
-      <a href="categories.html">CATEGORIES</a>
-      <a href="userpage.html" class="user-icon">👤</a>
+<header>
+    <nav class="nav-container">
+        <a href="index.html" class="logo-container">
+          <img src="images/logo.png" alt="logo" class="logo">
+          <span class="brand-name">SUGAR CRUSH</span>
+        </a>    
+
+    <div class="search-container">
+    <input type="text" class="search-bar" placeholder="Search for desserts..." />
+    <button class="search-button">
+        <img src="images/finding.png" alt="Search" class="search-icon" />
+    </button>
+</div>
+
+<div id="search-results" class="results-container"></div>
+
+
+        <div>
+            <a href="creation.html">CREATION</a>
+        </div>
+        <div>
+            <a href="curiosities.html">CURIOSITIES</a>
+        </div>
+        <div>
+            <li>
+                <a href="categories.html">CATEGORIES</a>
+                <ul class="sub-nav">
+                    <li><a href="#" class="category-link" data-category="Cakes">Cakes</a></li>
+                    <li><a href="#" class="category-link" data-category="Cookies">Cookies</a></li>
+                    <li><a href="#" class="category-link" data-category="Pies">Pies</a></li>
+                    <li><a href="#" class="category-link" data-category="Cups">Cups</a></li>
+                    <li><a href="#" class="category-link" data-category="Mousses">Mousses</a></li>
+                    <li><a href="#" class="category-link" data-category="Rice">Rice</a></li>
+                    <li><a href="#" class="category-link" data-category="Candies">Candies</a></li>
+                    <li><a href="#" class="category-link" data-category="Frozen">Frozen</a></li>
+                    <li><a href="#" class="category-link" data-category="Traditional">Traditional</a></li>
+                    <li><a href="#" class="category-link" data-category="Chocolates">Chocolates</a></li>
+                </ul>
+            </li>
+        </div>
+<a href="userpage.html" class="logo-container user-logo-img">
+    <img src="img/userlogo.png" alt="logo" class="logo">
+</a>
+<a href="userpage.html" class="user-logo-text" style="display:none;">USERPAGE</a>  
     </nav>
-  </header>
-
+</header>
   <main>
-    <section class="intro">
-      <h1>SUGAR CRUSH</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
-    </section>
-
+    <section class="header-image">
+      <img src="img/header.jpeg" alt="main page image">
+      <div class="header-text">
+        <h1>SUGAR CRUSH</h1>
+        <p>Indulge your sweet tooth with our curated collection of dessert recipes. We offer something for every taste—including 
+          healthy alternatives. With helpful tips, and inspiring visuals, our website is your go-to guide for 
+          making delicious desserts for any occasion.</p>
+      </div>
+    </section>   
+    <section class="introduction-text">
+      <p>Ready to treat yourself? Browse our handpicked dessert recipes and find the perfect match for your mood—whether 
+        you’re craving something rich and chocolatey, fruity and fresh, or light and wholesome. 
+        There’s a sweet delight here for everyone.</p>
+    </section> 
+        <section class="recipes-text">
+      <p>TRY OUT OUR TOP RECIPES !!</p>
+    </section> 
     <section class="gallery-section">
       <div class="gallery">
         <div class="item">
-        <span>🍃❤️</span></div>
+          <button class="like-btn" data-id="img1">♡</button>
+          <img src="img/chocolate-cake.jpeg" alt="macarons"> 
+        </div>
         <div class="item">
-        <span>🍃❤️</span></div>
+          <button class="like-btn" data-id="img2">♡</button>
+          <img src="img/dessert.jpeg" alt="macarons"> 
+        </div>
         <div class="item">
-        <span>🍃❤️</span></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
-        <div class="item"></div>
+          <button class="like-btn" data-id="img3">♡</button>
+          <img src="img/strawberry-chocolate-cake.jpeg" alt="strawberry-chocolate-cake"> 
+        </div>
+        <div class="item">
+          <button class="like-btn" data-id="img4">♡</button>
+          <img src="img/waffles.jpeg" alt="waffles"> 
+        </div>
+        <div class="item">
+          <button class="like-btn" data-id="img5">♡</button>
+        <img src="img/macarons.jpeg" alt="macarons"> 
+        </div>
+        <div class="item">
+          <button class="like-btn" data-id="img6">♡</button>
+          <img src="img/cookies.jpeg" alt="cookies"> 
+        </div>
+      <div class="item">
+          <button class="like-btn" data-id="img7">♡</button>
+          <a href="detail.html">
+          <img src="img/pink-cake.jpeg" alt="pink cake">
+       </a>
       </div>
-      <div class="right-side-link">
-        <a href="popular.html">HOT NOW 🔥</a>
-        <a href="shared.html">SHARED</a>
+        <div class="item see-more">
+          <button class="like-btn" data-id="img8">♡</button>
+          <img src="img/orange-cake.jpeg" alt="orange-cake"> 
+          <a href="categories.html" class="see-more-text">See more</a>
+        </div>
       </div>
     </section>
   </main>
-  <footer>
-    <a href="about.html">ABOUT</a>
-    <a href="#">COOKBOOK</a>
-    <a href="#">SUBSCRIBE</a>
-  </footer>
+<footer class="thefooter">
+    <div class="top">
+        <div class="introduction">
+            <h2>ABOUT</h2>
+            <p>
+               Sugar Crush is a handcrafted dessert brand built on the belief that every bite of sweetness should be made with love. From carefully selected ingredients to thoughtful recipes, we create treats that spark joy and bring comfort.
+            </p>
+        </div>
+        <div class="contactus">
+            <h2>Contact Us</h2>
+            <ul>
+                <li><a href="#">E-mail: hello@sugercrush.com"</a></li>
+                <li><a href="#">Hotline: +86 400-888-8888</a></li>
+                <li><a href="#">Business Hours: Monday-Friday, 9:00 AM - 6:00 PM</a></li>
+                <li><a href="#">Business Inquiries: collab@sugercrush.com</a></li>
+            </ul>
+        </div>
+        <div class="subscrib">
+            <h2>SUBSCRIBE</h2>
+            <ul>
+                <li><a href="#">X</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">TikTok</a></li>
+                <li><a href="#">Pinterest</a></li>
+            </ul>
+        </div>
+        <div class="download">
+            <h2>Download</h2>
+            <img src="./images/CR.jpg" />
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="container">
+        <p> © 2025 Suger Crush. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Nutrition & Allergy Info</a></li>
+        </ul></div>
+    </div>
+</footer>
 </body>
 </html>

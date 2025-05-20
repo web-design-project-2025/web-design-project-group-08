@@ -1,0 +1,368 @@
+{
+    "categories": [
+{
+            "name": "Cakes",
+            "items": [
+                {
+                    "name": "Sakura Blossom Cake",
+                    "description": "A floral and subtly sweet cake infused with cherry blossom essence and pink cream layers.",
+                    "image": "images/cake8.jpg"
+                },
+                {
+                    "name": "Chestnut Cake",
+                    "description": "A delicate sponge cake filled with smooth chestnut cream, topped with glazed chestnuts.",
+                    "image": "images/cake1.jpg"
+                },
+                {
+                    "name": "Strawberry Chocolate Cake",
+                    "description": "Rich chocolate cake layered with fresh strawberries and whipped cream for a fruity twist.",
+                    "image": "images/cake2.jpg"
+                },
+                {
+                    "name": "Creamy Lemon Cake",
+                    "description": "A light and zesty lemon cake with velvety lemon cream and a buttery base.",
+                    "image": "images/cake3.jpg"
+                },
+                {
+                    "name": "Classic Chocolate Cake",
+                    "description": "Decadent and moist chocolate layers with a smooth chocolate ganache frosting.",
+                    "image": "images/cake4.jpg"
+                },
+                {
+                    "name": "Soy Milk Cake",
+                    "description": "A soft and airy cake made with soy milk for a gentle, wholesome flavor.",
+                    "image": "images/cake5.jpg"
+                },
+                {
+                    "name": "Caramel Biscuit Cake",
+                    "description": "Layers of crunchy biscuit and soft sponge soaked in caramel cream, finished with a golden glaze.",
+                    "image": "images/cake6.jpg"
+                },
+                {
+                    "name": "Matcha Fig Cake",
+                    "description": "Earthy matcha sponge paired with sweet fig jam and cream, a unique East-meets-West flavor.",
+                    "image": "images/cake7.jpg"
+                }
+            ]
+        },
+{
+    "name": "Cookies",
+    "items": [
+        {
+            "name": "Butter Cookie",
+            "description": "Classic buttery shortbread with a golden crunch",
+            "image": "images/cookies1.jpg"
+        },
+        {
+            "name": "Breakfast Biscuit",
+            "description": "Nutritious morning cookie perfect for a quick bite",
+            "image": "images/cookies2.jpg"
+        },
+        {
+            "name": "Smiley Toast Sandwich",
+            "description": "Playful smiley-faced cookie with a soft filling",
+            "image": "images/cookies3.jpg"
+        },
+        {
+            "name": "Chocolate Cookie",
+            "description": "Rich cocoa cookie with a chewy center",
+            "image": "images/cookies4.jpg"
+        },
+        {
+            "name": "Orange Cookie",
+            "description": "Crispy cookie infused with bright citrus flavor",
+            "image": "images/cookies5.jpg"
+        },
+        {
+            "name": "Cat Cookie",
+            "description": "Cute cat-shaped cookie with vanilla essence",
+            "image": "images/cookies6.jpg"
+        },
+        {
+            "name": "Strawberry Cream Sandwich",
+            "description": "Two soft cookies filled with strawberry cream",
+            "image": "images/cookies7.jpg"
+        },
+        {
+            "name": "Butter Cookie",
+            "description": "Delicate melt-in-your-mouth butter flavor",
+            "image": "images/cookies8.jpg"
+        }
+    ]
+},
+{
+    "name": "Pies",
+    "items": [
+        {
+            "name": "Apple pie",
+            "description": "A classic golden-crusted pie filled with warm, cinnamon-spiced apple slices.",
+            "image": "images/pie1.jpg"
+        },
+        {
+            "name": "Pumpkin pie",
+            "description": "Creamy spiced pumpkin filling nestled in a flaky crust — a cozy seasonal favorite.",
+            "image": "images/pie2.jpg"
+        }
+    ]
+},
+{
+    "name": "Cups",
+    "items": [
+        {
+            "name": "Raspberry Cupcake",
+            "description": "Tangy raspberry frosting over fluffy vanilla base",
+            "image": "images/cup1.jpg"
+        },
+        {
+            "name": "Blueberry Cupcake",
+            "description": "Bursting blueberries in soft sponge with creamy topping",
+            "image": "images/cup2.jpg"
+        },
+        {
+            "name": "Matcha Chocolate Cupcake",
+            "description": "Rich matcha and chocolate swirl in every bite",
+            "image": "images/cup3.jpg"
+        },
+        {
+            "name": "Wisteria Blossom Cupcake",
+            "description": "Floral-inspired pastel cupcake with violet cream",
+            "image": "images/cup4.jpg"
+        },
+        {
+            "name": "Rainbow Oreo Cupcake",
+            "description": "Colorful layers topped with crunchy Oreo crumbs",
+            "image": "images/cup5.jpg"
+        },
+        {
+            "name": "Mango Cupcake",
+            "description": "Tropical mango puree nestled in moist cake",
+            "image": "images/cup6.jpg"
+        }
+    ]
+},
+
+{
+    "name": "Mousses",
+    "items": [
+        {
+            "name": "Raspberry Mousse",
+            "description": "Light and tangy raspberry delight with a velvety finish",
+            "image": "images/Mousses1.jpg"
+        },
+        {
+            "name": "Chocolate Berry Mousse",
+            "description": "Rich chocolate mousse swirled with mixed berry compote",
+            "image": "images/Mousses2.jpg"
+        },
+        {
+            "name": "Classic Chocolate Mousse",
+            "description": "Silky dark chocolate mousse for true cocoa lovers",
+            "image": "images/Mousses3.jpg"
+        },
+        {
+            "name": "Matcha Mousse",
+            "description": "Earthy green tea mousse with a smooth creamy texture",
+            "image": "images/Mousses4.jpg"
+        },
+        {
+            "name": "Strawberry Mango Mousse",
+            "description": "Tropical duo of strawberry and mango in airy mousse layers",
+            "image": "images/Mousses5.jpg"
+        },
+        {
+            "name": "Oreo Mousse",
+            "description": "Cookies-and-cream mousse topped with crunchy Oreo bits",
+            "image": "images/Mousses6.jpg"
+        },
+        {
+            "name": "Raspberry Velvet Mousse",
+            "description": "Smooth raspberry mousse with a touch of berry glaze",
+            "image": "images/Mousses7.jpg"
+        }
+    ]
+},
+
+       {
+    "name": "Rice",
+    "items": [
+        {
+            "name": "Fried Rice Cake",
+            "description": "Crispy golden rice cake with a chewy center",
+            "image": "images/rice1.jpg"
+        },
+        {
+            "name": "Rice Crisp Biscuit",
+            "description": "Lightly toasted rice cracker with a hint of sweetness",
+            "image": "images/rice2.jpg"
+        },
+        {
+            "name": "Steamed Rice Cake",
+            "description": "Soft and fluffy traditional steamed rice cake",
+            "image": "images/rice3.jpg"
+        },
+        {
+            "name": "Coconut Sticky Rice Cake",
+            "description": "Sticky rice infused with coconut and topped with coconut flakes",
+            "image": "images/rice4.jpg"
+        },
+        {
+            "name": "Black Sesame Rice Ball",
+            "description": "Chewy rice ball filled with aromatic black sesame paste",
+            "image": "images/rice5.jpg"
+        }
+    ]
+},
+{
+    "name": "Candies",
+    "items": [
+        {
+            "name": "Fruity Gummy",
+            "description": "Colorful and chewy fruit-flavored gummies",
+            "image": "images/candy1.jpg"
+        },
+        {
+            "name": "Strawberry Lollipop",
+            "description": "Sweet strawberry swirl lollipop on a stick",
+            "image": "images/candy2.jpg"
+        },
+        {
+            "name": "Mint Candy Cane",
+            "description": "Classic red-and-white peppermint candy cane",
+            "image": "images/candy3.jpg"
+        },
+        {
+            "name": "Crystal Sugar Drop",
+            "description": "Shiny hard candy with a crystalline glow",
+            "image": "images/candy4.jpg"
+        },
+        {
+            "name": "Marshmallow Puff",
+            "description": "Fluffy cloud-like vanilla marshmallows",
+            "image": "images/candy5.jpg"
+        },
+        {
+            "name": "Heart Gummy",
+            "description": "Cute heart-shaped gummies with a juicy burst",
+            "image": "images/candy6.jpg"
+        }
+    ]
+},
+{
+    "name": "Frozen",
+    "items": [
+        {
+            "name": "Vanilla Ice Cream",
+            "description": "Smooth and creamy classic vanilla flavor",
+            "image": "images/ice1.jpg"
+        },
+        {
+            "name": "Cherry Ice Cream",
+            "description": "Rich cherry taste with sweet and tart notes",
+            "image": "images/ice2.jpg"
+        },
+        {
+            "name": "Spaghetti Ice Cream",
+            "description": "Whimsical pasta-shaped ice cream with berry sauce",
+            "image": "images/ice3.jpg"
+        },
+        {
+            "name": "Matcha Ice Cream",
+            "description": "Earthy and refreshing green tea flavor",
+            "image": "images/ice4.jpg"
+        },
+        {
+            "name": "Vanilla Walnut",
+            "description": "Creamy vanilla swirled with toasted walnuts",
+            "image": "images/ice5.jpg"
+        },
+        {
+            "name": "Coffee Walnut",
+            "description": "Bold coffee flavor with crunchy walnut pieces",
+            "image": "images/ice6.jpg"
+        },
+        {
+            "name": "Mango Ice Cream",
+            "description": "Tropical mango ice cream bursting with fruitiness",
+            "image": "images/ice7.jpg"
+        },
+        {
+            "name": "Caramel Chocolate",
+            "description": "Decadent combo of caramel swirl and chocolate chunks",
+            "image": "images/ice8.jpg"
+        }
+    ]
+},
+{
+    "name": "Traditional",
+    "items": [
+        {
+            "name": "Strawberry Napoleon",
+            "description": "Layered puff pastry with fresh strawberries and cream",
+            "image": "images/traditional1.jpg"
+        },
+        {
+            "name": "Cream Puff Tower",
+            "description": "Tower of delicate choux pastry filled with vanilla cream",
+            "image": "images/traditional2.jpg"
+        },
+        {
+            "name": "Mooncake",
+            "description": "Traditional pastry with sweet or savory filling",
+            "image": "images/traditional3.jpg"
+        },
+        {
+            "name": "Butter Crisp Pastry",
+            "description": "Flaky pastry with a rich buttery flavor",
+            "image": "images/traditional4.jpg"
+        },
+        {
+            "name": "Vanilla Cream Puff",
+            "description": "Soft puff pastry filled with smooth cream",
+            "image": "images/traditional5.jpg"
+        },
+        {
+            "name": "Cherry Almond Cake",
+            "description": "Moist cake infused with cherries and almond aroma",
+            "image": "images/traditional6.jpg"
+        }
+    ]
+},
+{ 
+    "name": "Chocolates",
+    "items": [
+        {
+            "name": "Peanut Crunch Chocolate",
+            "description": "Crunchy milk chocolate bar filled with roasted peanuts",
+            "image": "images/chocolates1.jpg"
+        },
+        {
+            "name": "Almond Delight Chocolate",
+            "description": "Smooth milk chocolate with whole almonds",
+            "image": "images/chocolates2.jpg"
+        },
+        {
+            "name": "Raspberry Infused Chocolate",
+            "description": "Bittersweet chocolate with tangy raspberry filling",
+            "image": "images/chocolates3.jpg"
+        },
+        {
+            "name": "Pistachio Cream Chocolate",
+            "description": "Creamy chocolate blended with crushed pistachios",
+            "image": "images/chocolates4.jpg"
+        },
+        {
+            "name": "White Chocolate with Almond",
+            "description": "Silky white chocolate with crunchy batten almonds",
+            "image": "images/chocolates5.jpg"
+        },
+        {
+            "name": "Hazelnut Praline Chocolate",
+            "description": "Rich chocolate filled with smooth hazelnut praline",
+            "image": "images/chocolates6.jpg"
+        }
+    ]
+}
+    ]
+}
+
+
