@@ -124,6 +124,9 @@ li {
     height: 20px;
 }
 
+
+/* Body */
+
 body    {
     background-color: bisque;
     margin: 0;
@@ -134,6 +137,7 @@ body    {
     grid-template-columns: 37rem 1fr;
     background-color: rgb(193, 171, 145);
     height: 39rem;
+    box-shadow: 0px 10px 8px rgba(60, 40, 20, 0.4);
 }
 
 .food-image {
@@ -142,12 +146,14 @@ body    {
     border-radius: 1rem;
     margin: 3.5rem;
     margin-top: 5rem;
+    border: 7px solid rgb(255, 147, 189);
+    box-shadow: 5px 4px 12px rgba(48, 40, 32, 0.2);
 }
 
 .rating-icons {
     font-size: 240%;
     color:rgb(255, 196, 0);
-    margin-top: 7%;
+    margin-bottom: 1%;
 }
 
 .rating-icons.no-star {
@@ -155,9 +161,9 @@ body    {
 }
 
 .heart-icon {
-    font-size: 270%;
+    font-size: 245%;
     color: rgb(223, 223, 223);
-    margin-left: 1.7rem;
+    margin-right: 0.5rem;
     cursor: pointer;
 }
 
@@ -172,30 +178,54 @@ h1 {
     margin-bottom: 2rem;
 }
 
-h2 {
+.intro-section h2 {
     margin-top: 0%;
     font-size: 300%;
+    color: white;
 }
 
-p {
-    font-size: 135%
+.intro-background {
+    margin-top: 5rem;
+    background-color: #4b3e36;
+    border: 7px solid #342923;
+    border-radius: 1rem;
+    box-shadow: 5px 4px 12px rgba(48, 40, 32, 0.5);
+    padding: 1%;
+    height: 15rem;
+    width: 90%;
 }
 
-ul {
-    font-size: 135%;
+/* Instructions & Ingredients */
+
+.instructions-ingredients {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+.instructions-li {
+    margin-left: 2rem;
+    font-size: 125%;
     margin-bottom: 2rem;
 }
 
-.instructions-li {
-    margin-left: 4rem;
+.background-textL {
+    background-color: white;
+    padding: 5px;
+    width: 65%;
+    border-radius: 0.3rem;
+    margin: 0.7rem;
+    box-shadow: 0px 4px 10px rgba(60, 40, 20, 0.6)
 }
 
-.background-text {
+.background-textR {
     background-color: white;
     padding: 5px;
     width: 41%;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     margin: 0.7rem;
+    box-shadow: 0px 4px 15px rgba(60, 40, 20, 0.6);
+    height: 27rem;
 }
 
 .ingredients-text {
@@ -204,7 +234,7 @@ ul {
 }
 
 .instructions-text {
-    margin-left: 2.5rem;
+    margin-left: 2rem;
     font-weight: 700;
     font-size: 140%;
 }
@@ -212,6 +242,7 @@ ul {
 .intro-section p {
     width: 85%;
     font-size: 135%;
+    color: white;
 }
 
 .comment-section {
@@ -304,12 +335,12 @@ ul {
 }
 
 
-/*footer*/
+/*Footer*/
 
 footer.thefooter {
     background-color: #3D3D3D;
     color: white;
-    padding: 20px 100px;
+    padding: 20px 100px
 }
 
 footer.thefooter .top {
@@ -318,6 +349,7 @@ footer.thefooter .top {
     align-items: flex-start;
     padding: 20px;
     gap: 20px;
+    font-family: '';
 }
 
 footer.thefooter .top > div {
@@ -362,12 +394,14 @@ footer.thefooter .bottom {
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
+    font-family: '';
     color: white;
 }
 
 footer.thefooter .bottom p {
     margin: 0;
     color: white;
+    font-size: 12px;
 }
 
 footer.thefooter .bottom ul {
@@ -382,40 +416,7 @@ footer.thefooter .bottom ul {
 footer.thefooter .bottom ul li a {
     color: white;
     text-decoration: none;
-}
-
-footer.thefooter .bottom ul li a:hover {
-    text-decoration: underline;
-}
-
-
-footer.thefooter .bottom {
-    background-color: #2C2C2C;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    font-size: 12px; 
-    color: white;
-}
-
-footer.thefooter .bottom p {
-    margin: 0;
-    color: white;
-}
-
-footer.thefooter .bottom ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 15px;
-}
-
-footer.thefooter .bottom ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 12px; 
+    font-size: 12px;
 }
 
 footer.thefooter .bottom ul li a:hover {
