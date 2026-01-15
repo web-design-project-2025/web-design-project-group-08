@@ -125,10 +125,11 @@ li {
 }
 
 
-/* Body */
+/* Introduction Section */
 
 body    {
     background-color: bisque;
+    background-image: linear-gradient(to bottom right, bisque, rgb(211, 172, 125));
     margin: 0;
 }
 
@@ -181,6 +182,12 @@ h1 {
 .intro-section h2 {
     margin-top: 0%;
     font-size: 300%;
+    color: white;
+}
+
+.intro-section p {
+    width: 85%;
+    font-size: 135%;
     color: white;
 }
 
@@ -239,11 +246,7 @@ h1 {
     font-size: 140%;
 }
 
-.intro-section p {
-    width: 85%;
-    font-size: 135%;
-    color: white;
-}
+/* Comment Section */
 
 .comment-section {
     margin-top: 4rem;
@@ -253,15 +256,19 @@ h1 {
 }
 
 .comment-section h2 {
-    margin-left: 7.2%;
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-bottom: 0.3%;
+    font-size: 170%;
 }
 
 #comment-box {
     border: 0;
     border-radius: 0.5rem;
+    padding: 0.5rem;
     width: 85%;
     height: 10rem;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     resize: none;
     display: block;
     margin-left: auto;
@@ -319,6 +326,7 @@ h1 {
 }
 
 #submit-button {
+    width: 5.4%;
     border: 1;
     border-radius: 0.5rem;
     border-color: rgb(198, 124, 124);
@@ -327,7 +335,7 @@ h1 {
     font-size: 1.3rem;
  
     margin-left: auto;
-    margin-right: 7.4%;
+    margin-right: 7%;
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 0.2rem;
