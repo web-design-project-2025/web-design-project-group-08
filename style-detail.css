@@ -33,6 +33,11 @@
     text-decoration: none;
     font-size: 1.5rem;
   }
+
+  .brand-name:hover {
+    color: rgb(253, 255, 184);
+    transition: 0.2s;
+  }
   
   .header-image img {
     width: 100%;
@@ -56,6 +61,11 @@
     font-family: 'Jua', sans-serif;
 }
 
+.nav-text a:hover {
+    color: rgb(253, 255, 184);
+    font-size: 1.05rem;
+    transition: 0.2s;
+}
 /* Sub-navigation styles */
 .sub-nav {
     display: none;
@@ -81,9 +91,11 @@
 .sub-nav li a:hover {
     background-color: #575757;
 }
+
 li:hover > .sub-nav {
     display: block;
 }
+
 li {
     position: relative;
 }
@@ -253,6 +265,7 @@ h1 {
     padding-top: 1px;
     padding-bottom: 1rem;
     background-color: rgb(223, 223, 223);
+    box-shadow: 0px -3px 10px rgba(48, 40, 32, 0.3);
 }
 
 .comment-section h2 {
@@ -285,6 +298,11 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
+}
+
+.user-comment {
+    display: flex;
+    gap: 10px;
 }
 
 .commenters i {
@@ -342,6 +360,10 @@ h1 {
     padding-right: 0.2rem;
 }
 
+#submit-button:active {
+    background-color: white;
+    color: rgb(255, 162, 162);
+}
 
 /*Footer*/
 
