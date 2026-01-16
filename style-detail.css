@@ -2,8 +2,7 @@
 * {
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box;
-    font-family: "Poppins"; */
+    box-sizing: border-box;
 }
 
 /*Header*/
@@ -51,6 +50,10 @@
     align-items: center;
     gap: 10px;
   }
+
+  .logo {
+    object-fit: contain;
+  }
   
   a{
     color: white;
@@ -66,6 +69,13 @@
     font-size: 1.05rem;
     transition: 0.2s;
 }
+
+.user-logo-text:hover {
+    color: rgb(253, 255, 184);
+    font-size: 1.05rem;
+    transition: 0.2s;
+}
+
 /* Sub-navigation styles */
 .sub-nav {
     display: none;
@@ -149,6 +159,7 @@ body    {
     display: grid;
     grid-template-columns: 37rem 1fr;
     background-color: rgb(193, 171, 145);
+    width: 100%;
     height: 39rem;
     box-shadow: 0px 10px 8px rgba(60, 40, 20, 0.4);
 }
@@ -157,8 +168,8 @@ body    {
     width: 82%;
     height: 60%;
     border-radius: 1rem;
-    margin: 3.5rem;
-    margin-top: 5rem;
+    margin: 10%;
+    margin-top: 13.5%;
     border: 7px solid rgb(255, 147, 189);
     box-shadow: 5px 4px 12px rgba(48, 40, 32, 0.2);
 }
@@ -210,7 +221,7 @@ h1 {
     border-radius: 1rem;
     box-shadow: 5px 4px 12px rgba(48, 40, 32, 0.5);
     padding: 1%;
-    height: 15rem;
+    height: 32%;
     width: 90%;
 }
 
@@ -244,7 +255,7 @@ h1 {
     border-radius: 0.3rem;
     margin: 0.7rem;
     box-shadow: 0px 4px 15px rgba(60, 40, 20, 0.6);
-    height: 27rem;
+    height: 30%;
 }
 
 .ingredients-text {
@@ -344,7 +355,7 @@ h1 {
 }
 
 #submit-button {
-    width: 5.4%;
+    width: 5.4rem;
     border: 1;
     border-radius: 0.5rem;
     border-color: rgb(198, 124, 124);
@@ -453,9 +464,87 @@ footer.thefooter .bottom ul li a:hover {
     text-decoration: underline;
 }
 
-@media screen and (max-width: 1234px) {
-    #submit-button {
-        margin-left: auto;
+
+
+/* Responsive Design */
+
+
+/* Laptop L */
+@media screen and (max-width: 1400px) {
+    .intro-background {
+        height: 33%;
+    }
+}
+@media screen and (max-width: 1220px) {
+    .intro-background {
+        height: 36%;
+    }
+}
+@media screen and (max-width: 1110px) {
+    .intro-background {
+        height: 39%;
     }
 }
 
+/* IPad Pro/Laptop */
+@media screen and (max-width: 1024px) {
+    .container-a {
+        grid-template-columns: (4rem, 1fr);
+    }
+    .background-textR {
+        height: 33%;
+    }
+}
+@media screen and (max-width: 1016px) {
+        .intro-background {
+        height: 42%;
+    }
+}
+@media screen and (max-width: 971px) {
+        .intro-background {
+        height: 45%;
+    }
+}
+@media screen and (max-width: 931px) {
+    .intro-section {
+        width: auto;
+    }
+    .container-a {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .food-image {
+        height: 80%;
+        width: 51%;
+        margin-bottom: 0px;
+        margin-left: 25%;
+
+    }
+
+    .intro-background {
+        width: auto;
+        height: auto;
+        margin: 3.5rem;
+        margin-top: 0px;
+    }
+}
+/* @media screen and (max-width: 701px) {
+    .nav-text-container {
+        display: inline-flex;
+    }
+} */
+
+/* Mobile */
+@media screen and (max-width: 567px) {
+    .instructions-ingredients {
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .background-textR {
+        width: 95%;
+    }
+    .background-textL {
+        width: 95%;
+    }
+}
