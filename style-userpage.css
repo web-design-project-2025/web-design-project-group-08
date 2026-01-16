@@ -1,0 +1,271 @@
+/* Info user section */
+.infouser {
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFF7E6;
+}
+
+.user-info{
+  font-family: 'Roboto', sans-serif;
+}
+
+.user-avatar{
+    padding-top: 2rem;
+    max-width: 8rem;
+    max-height: 8rem;
+}
+
+.icon{
+    max-width: 1.3rem;
+    max-height: 1.3rem;
+}
+
+.recipe-avatar img{
+    padding-top: 2rem;
+    max-width: 9rem;
+    max-height: 9rem;
+}
+
+
+
+
+
+/* Tabs section */
+.usercreations {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.tab {
+  padding: 15px;
+  text-align: center;
+  background-color: #D3D3D3;
+  font-weight: bold;
+}
+
+
+.usercreations{
+    background-color: #D3D3D3;
+}
+
+
+
+
+
+
+
+/* Gallery section */
+.usergallery {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #F6DFC3;
+}
+
+.usergallery img{
+    max-width: 14%;
+    max-height: 14%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+footer.thefooter {
+    background-color: #3D3D3D;
+    color: white;
+    padding: 20px 100px;
+}
+
+footer.thefooter .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+footer.thefooter .top > div {
+    flex: 1;
+    text-align: left; 
+}
+
+footer.thefooter .top h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer.thefooter .top p,
+footer.thefooter .top ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer.thefooter .top ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer.thefooter .top ul li {
+    margin-bottom: 5px;
+}
+
+footer.thefooter .top ul li a:hover {
+    text-decoration: underline;
+}
+
+footer.thefooter .download img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+footer.thefooter .bottom {
+    background-color: #2C2C2C;
+    padding: 10px 0;
+    text-align: left;
+}
+
+footer.thefooter .bottom p {
+    margin: 0;
+    color: white;
+}
+
+footer.thefooter .bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: flex-start; 
+    gap: 15px;
+}
+
+footer.thefooter .bottom ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer.thefooter .bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+
+footer.thefooter .bottom {
+    background-color: #2C2C2C;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 12px; 
+    color: white;
+}
+
+footer.thefooter .bottom p {
+    margin: 0;
+    color: white;
+}
+
+footer.thefooter .bottom ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+footer.thefooter .bottom ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px; 
+}
+
+footer.thefooter .bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Header */
+@media (max-width: 1100px) {
+    .nav-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nav-container > * {
+        margin-bottom: 10px;
+    }
+    .search-container {
+        width: 100%;
+        order: 10;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-container {
+        align-items: flex-start;
+        gap: 8px;
+        padding: 10px 5px;
+    }
+    .nav-container > * {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .search-container {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .logo-container {
+        justify-content: flex-start;
+    }
+}
+
+.user-logo-text {
+    color: white;
+    font-size: 16px;          
+    font-family: inherit;     
+    font-weight: normal;    
+    text-decoration: none;
+    display: none;
+    padding: 5px 10px;       
+    border-radius: 5px;
+    background: none;
+    transition: background-color 0.3s;
+    line-height: 1.5;
+    letter-spacing: normal;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+}
+.user-logo-text:hover {
+    background-color: #575757;
+}
+
+@media (max-width: 700px) {
+    .user-logo-img {
+        display: none !important;
+    }
+    .user-logo-text {
+        display: inline-block !important;
+        width: 100%;
+        text-align: left;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
